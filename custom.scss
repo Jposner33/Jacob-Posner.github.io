@@ -125,3 +125,11 @@ h2::after {
   .quarto-about-trestles .about-entity .title { font-size: 2rem; }
   .quarto-title-banner .title { font-size: 2rem; }
 }
+
+.entry ul { margin: 0.35rem 0 0; padding-left: 1.1rem; }
+.entry li { font-size: 0.95rem; color: #3E4C59; margin-bottom: 0.2rem; }
+.entry li::marker { color: $primary; }
+
+.entry ul { margin: 0.35rem 0 0; padding-left: 1.1rem; }
+.entry li { font-size: 0.95rem; color: #3E4C59; margin-bottom: 0.2rem; }
+.entry li::marker { color: $primary; }

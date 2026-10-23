@@ -1,44 +1,60 @@
 ---
 title: "Resume"
+resources:
+  - Jacob_Posner_Resume.pdf
 ---
+
+[Download PDF](Jacob_Posner_Resume.pdf){.btn .btn-primary download="Jacob_Posner_Resume.pdf"}
 
 ## Education
 
-
 ::: {.entry}
-[[The University of Texas at Austin]{.entry-org} [Austin, TX]{.entry-meta}]{.entry-head}
-[M.S. in Business Analytics, McCombs School of Business · Expected May 2027]{.entry-role}
+[[The University of Texas at Austin, McCombs School of Business]{.entry-org} [May 2027]{.entry-meta}]{.entry-head}
+[Master of Science in Business Analytics · GPA 3.85]{.entry-role}
+
+- Relevant coursework: Advanced Machine Learning, Optimization, Information Management, Financial Management, Unstructured Data, Data Science
+- Student Ambassador for prospective and admitted students
 :::
 
 ::: {.entry}
-[[Macalester College]{.entry-org} [St. Paul, MN]{.entry-meta}]{.entry-head}
-[B.A. in Statistics · Varsity Baseball]{.entry-role}
+[[Macalester College]{.entry-org} [May 2025]{.entry-meta}]{.entry-head}
+[Bachelor of Arts in Statistics · GPA 3.79 · Cum Laude]{.entry-role}
+
+- Honors: Cum Laude, Dean's List, MIAC All-Academic (2023–2025)
+- Relevant coursework: Bayesian Statistics, Causal Inference, Statistical Theory
+- Varsity Baseball (2021–2025): pitcher and team leader, committing 20–25 hours a week year-round alongside a full course load
 :::
 
 ## Experience
 
 ::: {.entry}
-[[Basal Strength]{.entry-org} [Austin, TX]{.entry-meta}]{.entry-head}
-[Business Analyst Intern]{.entry-role}
+[[Basal Strength · Austin, TX]{.entry-org} [Sept 2026 – Present]{.entry-meta}]{.entry-head}
+[Business Analytics Intern]{.entry-role}
 
-Built a streamlined pipeline to pull and clean customer data from the company API for client reports, cutting turnaround by days per customer.
+- Building an internal R-based analytics pipeline to automate collection, storage, and analysis of performance-testing and body-composition data for a strength-training startup
+- Developing an internal R Shiny dashboard to give leadership self-service visibility into client and rep-level performance metrics
 :::
 
 ::: {.entry}
-[[Aon]{.entry-org} [Minneapolis, MN]{.entry-meta}]{.entry-head}
-[Catastrophe Modeling Analyst Trainee]{.entry-role}
+[[Aon · Minneapolis, MN]{.entry-org} [June 2025 – April 2026]{.entry-meta}]{.entry-head}
+[Catastrophe Modeling Analyst]{.entry-role}
 
-Led the client renewal process on the reinsurance brokerage team and documented and optimized team workflows.
+- Supported exposure data and model output preparation for four concurrent client teams, ensuring accurate, on-time submissions for reinsurance renewals
+- Executed catastrophe models across five perils using RMS, Verisk, and AIR platforms, synthesizing outputs into client-ready summaries that informed multi-million-dollar risk transfer and reinsurance placement decisions
+- Built client-specific process documentation to streamline future renewal cycles and reduce onboarding time for team members picking up an account
 :::
 
 ::: {.entry}
-[[Kipsu]{.entry-org}]{.entry-head}
+[[Kipsu · Minneapolis, MN]{.entry-org} [May 2024 – August 2024]{.entry-meta}]{.entry-head}
 [Accounting Intern]{.entry-role}
+
+- Recovered $400K+ across 200 properties by owning accounts receivable and debt collection, driven by 1,200+ targeted client calls and emails
+- Spearheaded outreach to property managers by identifying AR trends and collection gaps, driving consistent improvement in monthly recovery rates
+- Created Excel reports to inform business strategy and meet collection goals
 :::
 
-## Skills
+## Technical Skills
 
 ::: {.skill-pills}
-[R (tidyverse)]{} [Python (pandas)]{} [SQL]{} [Regression]{} [Bayesian modeling]{} [Clustering]{} [Text analytics]{}
+[R]{} [Python]{} [SQL]{} [R Shiny]{} [Snowflake]{} [Git / GitHub]{} [Excel]{} [Google Workspace]{} [Bayesian statistics]{} [Causal inference]{} [Machine learning]{}
 :::
-

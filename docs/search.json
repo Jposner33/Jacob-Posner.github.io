@@ -4,14 +4,14 @@
     "href": "index.html",
     "title": "Jacob Posner",
     "section": "",
-    "text": "LinkedIn\n  \n  \n    \n     GitHub\n  \n  \n    \n     Email\n  \n\n  \n  \n\nI’m a Master of Science in Business Analytics student at UT Austin’s McCombs School of Business, graduating in May 2027. I use statistics, modeling, and data tools to help organizations make better decisions.\n\n\n\nMy path into analytics started with a statistics degree at Macalester College, where I also played on the baseball team. That combination shaped how I think: I’m most interested in problems where good data and good models change real decisions, whether that’s on a field or in a business.\nAfter Macalester, I worked as a catastrophe modeling analyst trainee at Aon, where I led parts of the client renewal process and learned how analysis supports high-stakes decisions. I’m now at UT Austin building my toolkit in machine learning, data management, and unstructured data, while working as a business analyst intern at Basal Strength, a health and strength testing startup.\n\n\n\nI’m especially drawn to sports analytics and sports science, and more broadly to analytics and modeling roles where I can turn messy data into clear recommendations.\nOutside of work and school, you’ll probably find me watching baseball.\nSee my resume →"
+    "text": "LinkedIn\n  \n  \n    \n     GitHub\n  \n  \n    \n     Email\n  \n\n  \n  \n\nI’m a Master of Science in Business Analytics student at UT Austin’s McCombs School of Business, graduating in May 2027. I use statistics, modeling, and data tools to help organizations make better decisions.\n\n\n\nMy path into analytics started with a statistics degree at Macalester College, where I also played on the baseball team. That combination shaped how I think: I’m most interested in problems where good data and good models change real decisions, whether that’s on a field or in a business.\nAfter Macalester, I worked as a catastrophe modeling analyst at Aon, running catastrophe models and turning their outputs into summaries that informed multi-million-dollar reinsurance decisions. I’m now at UT Austin building my toolkit in machine learning, optimization, and unstructured data, while working as a business analytics intern at Basal Strength, a strength-training startup, where I’m building an R analytics pipeline and Shiny dashboard.\n\n\n\nI’m especially drawn to sports analytics and sports science, and more broadly to analytics and modeling roles where I can turn messy data into clear recommendations.\nOutside of work and school, you’ll probably find me watching baseball.\nSee my resume →"
   },
   {
     "objectID": "index.html#about-me",
     "href": "index.html#about-me",
     "title": "Jacob Posner",
     "section": "",
-    "text": "My path into analytics started with a statistics degree at Macalester College, where I also played on the baseball team. That combination shaped how I think: I’m most interested in problems where good data and good models change real decisions, whether that’s on a field or in a business.\nAfter Macalester, I worked as a catastrophe modeling analyst trainee at Aon, where I led parts of the client renewal process and learned how analysis supports high-stakes decisions. I’m now at UT Austin building my toolkit in machine learning, data management, and unstructured data, while working as a business analyst intern at Basal Strength, a health and strength testing startup."
+    "text": "My path into analytics started with a statistics degree at Macalester College, where I also played on the baseball team. That combination shaped how I think: I’m most interested in problems where good data and good models change real decisions, whether that’s on a field or in a business.\nAfter Macalester, I worked as a catastrophe modeling analyst at Aon, running catastrophe models and turning their outputs into summaries that informed multi-million-dollar reinsurance decisions. I’m now at UT Austin building my toolkit in machine learning, optimization, and unstructured data, while working as a business analytics intern at Basal Strength, a strength-training startup, where I’m building an R analytics pipeline and Shiny dashboard."
   },
   {
     "objectID": "index.html#what-im-interested-in",
@@ -32,27 +32,27 @@
     "href": "resume.html",
     "title": "Resume",
     "section": "",
-    "text": "The University of Texas at Austin Austin, TX M.S. in Business Analytics, McCombs School of Business · Expected May 2027\n\n\nMacalester College St. Paul, MN B.A. in Statistics · Varsity Baseball"
+    "text": "Download PDF"
   },
   {
     "objectID": "resume.html#education",
     "href": "resume.html#education",
     "title": "Resume",
-    "section": "",
-    "text": "The University of Texas at Austin Austin, TX M.S. in Business Analytics, McCombs School of Business · Expected May 2027\n\n\nMacalester College St. Paul, MN B.A. in Statistics · Varsity Baseball"
+    "section": "Education",
+    "text": "Education\n\nThe University of Texas at Austin, McCombs School of Business May 2027 Master of Science in Business Analytics · GPA 3.85\n\nRelevant coursework: Advanced Machine Learning, Optimization, Information Management, Financial Management, Unstructured Data, Data Science\nStudent Ambassador for prospective and admitted students\n\n\n\nMacalester College May 2025 Bachelor of Arts in Statistics · GPA 3.79 · Cum Laude\n\nHonors: Cum Laude, Dean’s List, MIAC All-Academic (2023–2025)\nRelevant coursework: Bayesian Statistics, Causal Inference, Statistical Theory\nVarsity Baseball (2021–2025): pitcher and team leader, committing 20–25 hours a week year-round alongside a full course load"
   },
   {
     "objectID": "resume.html#experience",
     "href": "resume.html#experience",
     "title": "Resume",
     "section": "Experience",
-    "text": "Experience\n\nBasal Strength Austin, TX Business Analyst Intern\nBuilt a streamlined pipeline to pull and clean customer data from the company API for client reports, cutting turnaround by days per customer.\n\n\nAon Minneapolis, MN Catastrophe Modeling Analyst Trainee\nLed the client renewal process on the reinsurance brokerage team and documented and optimized team workflows.\n\n\nKipsu Accounting Intern"
+    "text": "Experience\n\nBasal Strength · Austin, TX Sept 2026 – Present Business Analytics Intern\n\nBuilding an internal R-based analytics pipeline to automate collection, storage, and analysis of performance-testing and body-composition data for a strength-training startup\nDeveloping an internal R Shiny dashboard to give leadership self-service visibility into client and rep-level performance metrics\n\n\n\nAon · Minneapolis, MN June 2025 – April 2026 Catastrophe Modeling Analyst\n\nSupported exposure data and model output preparation for four concurrent client teams, ensuring accurate, on-time submissions for reinsurance renewals\nExecuted catastrophe models across five perils using RMS, Verisk, and AIR platforms, synthesizing outputs into client-ready summaries that informed multi-million-dollar risk transfer and reinsurance placement decisions\nBuilt client-specific process documentation to streamline future renewal cycles and reduce onboarding time for team members picking up an account\n\n\n\nKipsu · Minneapolis, MN May 2024 – August 2024 Accounting Intern\n\nRecovered $400K+ across 200 properties by owning accounts receivable and debt collection, driven by 1,200+ targeted client calls and emails\nSpearheaded outreach to property managers by identifying AR trends and collection gaps, driving consistent improvement in monthly recovery rates\nCreated Excel reports to inform business strategy and meet collection goals"
   },
   {
-    "objectID": "resume.html#skills",
-    "href": "resume.html#skills",
+    "objectID": "resume.html#technical-skills",
+    "href": "resume.html#technical-skills",
     "title": "Resume",
-    "section": "Skills",
-    "text": "Skills\n\nR (tidyverse) Python (pandas) SQL Regression Bayesian modeling Clustering Text analytics"
+    "section": "Technical Skills",
+    "text": "Technical Skills\n\nR Python SQL R Shiny Snowflake Git / GitHub Excel Google Workspace Bayesian statistics Causal inference Machine learning"
   }
 ]
