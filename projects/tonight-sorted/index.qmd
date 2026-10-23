@@ -1,0 +1,38 @@
+---
+title: "Tonight, Sorted"
+description: "An agentic AI recommender that turns a plain-English plan into three real, nearby places, with a transparent explanation of why each one fits."
+date: "2026-10-18"
+image: featured.png
+categories:
+  - Python
+  - LLMs
+  - RAG
+  - Streamlit
+---
+
+[Try the live demo](https://tonight-sorted.streamlit.app){.btn .btn-primary target="_blank"}
+[View the code on GitHub](https://github.com/Jposner33/tonight-sorted){.btn .btn-outline-primary target="_blank"}
+
+## Overview
+
+Tonight, Sorted is a recommender app for figuring out what to do. You describe a plan the way you'd text a friend, such as *"four of us want something fun and social tonight, not too expensive,"* and the app returns three real places near you, each with a short explanation of why it fits.
+
+Built as the final project for Analytics for Unstructured Data in the UT Austin MSBA program, it brings together free-text understanding, embeddings, retrieval, and live data from several APIs.
+
+## How It Works
+
+A planner LLM reads the request and decides which specialist agents it actually needs, then adapts if a step comes back empty. The app shows its work, including which agents ran or were skipped and how every venue was scored.
+
+| Step | What it does | Method |
+|---|---|---|
+| Preference | Turns free text into group size, budget, likes, dislikes, and hard vs. soft constraints | LLM with structured JSON output |
+| Discovery | Ranks 196 activity ideas by meaning, not keywords | Sentence embeddings and cosine similarity |
+| Local places | Finds real venues near the user | Google Places API |
+| Weather, events, travel | Scores outdoor suitability, finds live events, and estimates drive times with traffic | Open-Meteo, Ticketmaster, Google Routes |
+| Website evidence | Reads each venue's website and reviews and judges fit only from retrieved passages | Retrieval-augmented generation (RAG) |
+| Matching | Produces the final ranking | Weighted score across activity fit, venue quality, travel, and evidence |
+| Synthesizer | Writes the plain-language explanation | LLM, with code verifying it kept the ranking |
+
+## Design Principle
+
+LLMs interpret and explain, while Python does all of the arithmetic. When a signal is missing, such as a venue with no website, it is dropped and the remaining weights are re-normalized instead of being filled with a made-up value. This keeps the rankings transparent and reproducible.

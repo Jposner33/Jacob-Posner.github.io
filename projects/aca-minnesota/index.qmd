@@ -1,0 +1,34 @@
+---
+title: "The Impact of the ACA on Healthcare Access in Minnesota"
+description: "A county-level analysis of how the Affordable Care Act changed insurance coverage and health outcomes across Minnesota, with an interactive R Shiny app."
+date: "2024-12-13"
+image: featured.png
+categories:
+  - R
+  - Shiny
+  - Data Visualization
+  - Healthcare
+---
+
+[View the code on GitHub](https://github.com/Jposner33/Projects_DS_Healthcare){.btn .btn-primary target="_blank"}
+
+## Overview
+
+The Affordable Care Act expanded health insurance coverage across the country, but its effects were not the same everywhere. This project, completed for the Projects in Data Science capstone at Macalester College, examines how healthcare access and health outcomes changed across Minnesota's counties before and after the ACA.
+
+## Approach
+
+- Combined Census Small Area Health Insurance Estimates (SAHIE) with County Health Rankings data from 2010 onward
+- Compared before-and-after trends in insurance coverage and county health indicators, including clinical care, health behaviors, and the physical environment
+- Contrasted the state's largest counties with its smallest to see whether county size shaped the ACA's impact
+- Built an interactive R Shiny app with county-level maps that lets users explore coverage trends by year, age, sex, and income
+
+## Key Findings
+
+- Uninsured rates fell sharply across Minnesota after the ACA took effect.
+- Large counties saw significantly greater improvement in health indicators than small counties.
+- The uninsured rate ticked back up slightly between 2015 and 2019, a period of rising premiums and reduced federal support for the law.
+
+![Percent of residents uninsured by county, 2010 compared with 2019](uninsured.png)
+
+![County health indicator trends before and after the ACA, large vs. small counties](zscore.png)

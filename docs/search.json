@@ -4,21 +4,140 @@
     "href": "index.html",
     "title": "Jacob Posner",
     "section": "",
-    "text": "LinkedIn\n  \n  \n    \n     GitHub\n  \n  \n    \n     Email\n  \n\n  \n  \n\nI’m a Master of Science in Business Analytics student at UT Austin’s McCombs School of Business, graduating in May 2027. I use statistics, modeling, and data tools to help organizations make better decisions.\n\n\n\nMy path into analytics started with a statistics degree at Macalester College, where I also played on the baseball team. That combination shaped how I think: I’m most interested in problems where good data and good models change real decisions, whether that’s on a field or in a business.\n\nAfter Macalester, I worked as a catastrophe modeling analyst at Aon, running catastrophe models and turning their outputs into summaries that informed multi-million-dollar reinsurance decisions. I’m now at UT Austin building my toolkit in machine learning, optimization, and unstructured data, while working as a business analytics intern at Basal Strength, a strength-training startup, where I’m building an R analytics pipeline and Shiny dashboard.\n\n\n\nI’m especially drawn to sports analytics and sports science, and more broadly to analytics and modeling roles where I can turn messy data into clear recommendations.\nOutside of work and school, you’ll probably find me watching baseball.\nSee my resume →"
+    "text": "LinkedIn\n  \n  \n    \n     GitHub\n  \n  \n    \n     Email\n  \n\n  \n  \n\nI’m a Master of Science in Business Analytics student at UT Austin’s McCombs School of Business, graduating in May 2027. I’m passionate about turning messy, real-world data into clear answers that people can act on. With a foundation in statistics, I enjoy the full analytics process, from cleaning and structuring data to building models and communicating what they mean.\n\n\n\nI grew up in Los Angeles playing baseball and going to countless Dodgers games and UCLA sporting events. As much as I loved being at every game, what really hooked me was keeping score and the stats behind it. As I got older, that interest grew into the advanced analytics that drive decisions during games and in training, from how pitchers attack hitters to how players develop.\nThat passion stayed with me through college at Macalester, where I got to apply it both in the classroom as a statistics major and on the field as a pitcher. Seeing analytics from both sides, studying the methods and living the results on the mound, shaped how I think about data.\nAfter graduating, I worked at Aon in Minneapolis, where I got my first real experience using data and models to support business decisions. Now I’m in Austin pursuing my Master of Science in Business Analytics at UT, and working at Basal Strength, where I get to bring analytics back to sports and performance.\n\n\n\n\nWhat I enjoy most is taking messy, real-world data and turning it into something useful, whether that’s a recommendation that drives a business decision or an insight that helps an athlete or team perform better. That’s the work I’m passionate about, in business and in sports analytics.\nOutside of work and school, I enjoy playing, watching, and coaching baseball, doing CrossFit, and trying new food spots around Austin.\nSee my resume →"
   },
   {
     "objectID": "index.html#about-me",
     "href": "index.html#about-me",
     "title": "Jacob Posner",
     "section": "",
-    "text": "My path into analytics started with a statistics degree at Macalester College, where I also played on the baseball team. That combination shaped how I think: I’m most interested in problems where good data and good models change real decisions, whether that’s on a field or in a business.\n\nAfter Macalester, I worked as a catastrophe modeling analyst at Aon, running catastrophe models and turning their outputs into summaries that informed multi-million-dollar reinsurance decisions. I’m now at UT Austin building my toolkit in machine learning, optimization, and unstructured data, while working as a business analytics intern at Basal Strength, a strength-training startup, where I’m building an R analytics pipeline and Shiny dashboard."
+    "text": "I grew up in Los Angeles playing baseball and going to countless Dodgers games and UCLA sporting events. As much as I loved being at every game, what really hooked me was keeping score and the stats behind it. As I got older, that interest grew into the advanced analytics that drive decisions during games and in training, from how pitchers attack hitters to how players develop.\nThat passion stayed with me through college at Macalester, where I got to apply it both in the classroom as a statistics major and on the field as a pitcher. Seeing analytics from both sides, studying the methods and living the results on the mound, shaped how I think about data.\nAfter graduating, I worked at Aon in Minneapolis, where I got my first real experience using data and models to support business decisions. Now I’m in Austin pursuing my Master of Science in Business Analytics at UT, and working at Basal Strength, where I get to bring analytics back to sports and performance."
   },
   {
     "objectID": "index.html#what-im-interested-in",
     "href": "index.html#what-im-interested-in",
     "title": "Jacob Posner",
     "section": "",
-    "text": "I’m especially drawn to sports analytics and sports science, and more broadly to analytics and modeling roles where I can turn messy data into clear recommendations.\nOutside of work and school, you’ll probably find me watching baseball.\nSee my resume →"
+    "text": "What I enjoy most is taking messy, real-world data and turning it into something useful, whether that’s a recommendation that drives a business decision or an insight that helps an athlete or team perform better. That’s the work I’m passionate about, in business and in sports analytics.\nOutside of work and school, I enjoy playing, watching, and coaching baseball, doing CrossFit, and trying new food spots around Austin.\nSee my resume →"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "A selection of my analytics and data science work, from agentic AI to causal inference and Bayesian modeling. Click any project for details.\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nTonight, Sorted\n\n\n\nPython\n\nLLMs\n\nRAG\n\nStreamlit\n\n\n\nAn agentic AI recommender that turns a plain-English plan into three real, nearby places, with a transparent explanation of why each one fits.\n\n\n\n\n\n\nOct 18, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Reality of Home Field Advantage\n\n\n\nR\n\nCausal Inference\n\nSports Analytics\n\n\n\nA causal inference study estimating how much playing at home actually changes win rates for each of the 30 MLB teams.\n\n\n\n\n\n\nDec 14, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Impact of the ACA on Healthcare Access in Minnesota\n\n\n\nR\n\nShiny\n\nData Visualization\n\nHealthcare\n\n\n\nA county-level analysis of how the Affordable Care Act changed insurance coverage and health outcomes across Minnesota, with an interactive R Shiny app.\n\n\n\n\n\n\nDec 13, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nHealth Equity Through Breast Cancer Patient Data\n\n\n\nR\n\nBayesian Modeling\n\nHealthcare\n\n\n\nA Bayesian analysis of which patient, insurance, and geographic factors predict whether breast cancer is diagnosed within 90 days of a first hospital visit.\n\n\n\n\n\n\nMay 2, 2024\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/breast-cancer-bayes/index.html",
+    "href": "projects/breast-cancer-bayes/index.html",
+    "title": "Health Equity Through Breast Cancer Patient Data",
+    "section": "",
+    "text": "View the code on GitHub"
+  },
+  {
+    "objectID": "projects/breast-cancer-bayes/index.html#overview",
+    "href": "projects/breast-cancer-bayes/index.html#overview",
+    "title": "Health Equity Through Breast Cancer Patient Data",
+    "section": "Overview",
+    "text": "Overview\nAccess to timely care is not evenly distributed in the United States. This project, completed for Bayesian Statistics at Macalester College, asks which factors affect whether a breast cancer patient is diagnosed within 90 days of their first hospital visit, among patients diagnosed between 2015 and 2018."
+  },
+  {
+    "objectID": "projects/breast-cancer-bayes/index.html#approach",
+    "href": "projects/breast-cancer-bayes/index.html#approach",
+    "title": "Health Equity Through Breast Cancer Patient Data",
+    "section": "Approach",
+    "text": "Approach\n\nCombined patient-level breast cancer data with zip-code demographics and state-level hospital data\nExplored differences in timely diagnosis by state, race, insurance type, income, and age\nFit Bayesian logistic regression models, including a ridge-style regularized model, and checked convergence and fit with trace plots, autocorrelation, and posterior predictive checks"
+  },
+  {
+    "objectID": "projects/breast-cancer-bayes/index.html#key-findings",
+    "href": "projects/breast-cancer-bayes/index.html#key-findings",
+    "title": "Health Equity Through Breast Cancer Patient Data",
+    "section": "Key Findings",
+    "text": "Key Findings\n\nWhere a patient lived was strongly associated with timely diagnosis. Holding personal and zip-code demographics constant, a patient in Minnesota had roughly nine times the odds of a diagnosis within 90 days as a similar patient in Alabama.\nInsurance type also mattered, with commercially insured patients making up the largest share of timely diagnoses.\nLimitations include having only a yes/no outcome rather than days to diagnosis, and no hospital-level data.\n\n\n\n\nShare of patients diagnosed within 90 days, by state\n\n\n\n\n\nInsurance payer type by diagnosis status"
+  },
+  {
+    "objectID": "projects/aca-minnesota/index.html",
+    "href": "projects/aca-minnesota/index.html",
+    "title": "The Impact of the ACA on Healthcare Access in Minnesota",
+    "section": "",
+    "text": "View the code on GitHub"
+  },
+  {
+    "objectID": "projects/aca-minnesota/index.html#overview",
+    "href": "projects/aca-minnesota/index.html#overview",
+    "title": "The Impact of the ACA on Healthcare Access in Minnesota",
+    "section": "Overview",
+    "text": "Overview\nThe Affordable Care Act expanded health insurance coverage across the country, but its effects were not the same everywhere. This project, completed for the Projects in Data Science capstone at Macalester College, examines how healthcare access and health outcomes changed across Minnesota’s counties before and after the ACA."
+  },
+  {
+    "objectID": "projects/aca-minnesota/index.html#approach",
+    "href": "projects/aca-minnesota/index.html#approach",
+    "title": "The Impact of the ACA on Healthcare Access in Minnesota",
+    "section": "Approach",
+    "text": "Approach\n\nCombined Census Small Area Health Insurance Estimates (SAHIE) with County Health Rankings data from 2010 onward\nCompared before-and-after trends in insurance coverage and county health indicators, including clinical care, health behaviors, and the physical environment\nContrasted the state’s largest counties with its smallest to see whether county size shaped the ACA’s impact\nBuilt an interactive R Shiny app with county-level maps that lets users explore coverage trends by year, age, sex, and income"
+  },
+  {
+    "objectID": "projects/aca-minnesota/index.html#key-findings",
+    "href": "projects/aca-minnesota/index.html#key-findings",
+    "title": "The Impact of the ACA on Healthcare Access in Minnesota",
+    "section": "Key Findings",
+    "text": "Key Findings\n\nUninsured rates fell sharply across Minnesota after the ACA took effect.\nLarge counties saw significantly greater improvement in health indicators than small counties.\nThe uninsured rate ticked back up slightly between 2015 and 2019, a period of rising premiums and reduced federal support for the law.\n\n\n\n\nPercent of residents uninsured by county, 2010 compared with 2019\n\n\n\n\n\nCounty health indicator trends before and after the ACA, large vs. small counties"
+  },
+  {
+    "objectID": "projects/tonight-sorted/index.html",
+    "href": "projects/tonight-sorted/index.html",
+    "title": "Tonight, Sorted",
+    "section": "",
+    "text": "Try the live demo View the code on GitHub"
+  },
+  {
+    "objectID": "projects/tonight-sorted/index.html#overview",
+    "href": "projects/tonight-sorted/index.html#overview",
+    "title": "Tonight, Sorted",
+    "section": "Overview",
+    "text": "Overview\nTonight, Sorted is a recommender app for figuring out what to do. You describe a plan the way you’d text a friend, such as “four of us want something fun and social tonight, not too expensive,” and the app returns three real places near you, each with a short explanation of why it fits.\nBuilt as the final project for Analytics for Unstructured Data in the UT Austin MSBA program, it brings together free-text understanding, embeddings, retrieval, and live data from several APIs."
+  },
+  {
+    "objectID": "projects/tonight-sorted/index.html#how-it-works",
+    "href": "projects/tonight-sorted/index.html#how-it-works",
+    "title": "Tonight, Sorted",
+    "section": "How It Works",
+    "text": "How It Works\nA planner LLM reads the request and decides which specialist agents it actually needs, then adapts if a step comes back empty. The app shows its work, including which agents ran or were skipped and how every venue was scored.\n\n\n\n\n\n\n\n\nStep\nWhat it does\nMethod\n\n\n\n\nPreference\nTurns free text into group size, budget, likes, dislikes, and hard vs. soft constraints\nLLM with structured JSON output\n\n\nDiscovery\nRanks 196 activity ideas by meaning, not keywords\nSentence embeddings and cosine similarity\n\n\nLocal places\nFinds real venues near the user\nGoogle Places API\n\n\nWeather, events, travel\nScores outdoor suitability, finds live events, and estimates drive times with traffic\nOpen-Meteo, Ticketmaster, Google Routes\n\n\nWebsite evidence\nReads each venue’s website and reviews and judges fit only from retrieved passages\nRetrieval-augmented generation (RAG)\n\n\nMatching\nProduces the final ranking\nWeighted score across activity fit, venue quality, travel, and evidence\n\n\nSynthesizer\nWrites the plain-language explanation\nLLM, with code verifying it kept the ranking"
+  },
+  {
+    "objectID": "projects/tonight-sorted/index.html#design-principle",
+    "href": "projects/tonight-sorted/index.html#design-principle",
+    "title": "Tonight, Sorted",
+    "section": "Design Principle",
+    "text": "Design Principle\nLLMs interpret and explain, while Python does all of the arithmetic. When a signal is missing, such as a venue with no website, it is dropped and the remaining weights are re-normalized instead of being filled with a made-up value. This keeps the rankings transparent and reproducible."
+  },
+  {
+    "objectID": "projects/home-field-advantage/index.html",
+    "href": "projects/home-field-advantage/index.html",
+    "title": "The Reality of Home Field Advantage",
+    "section": "",
+    "text": "View the code on GitHub"
+  },
+  {
+    "objectID": "projects/home-field-advantage/index.html#overview",
+    "href": "projects/home-field-advantage/index.html#overview",
+    "title": "The Reality of Home Field Advantage",
+    "section": "Overview",
+    "text": "Overview\nHome field advantage is one of the most debated ideas in baseball. Fans, crowds, batting last, and familiarity with a park’s quirks are all thought to help the home team, but how much do they really matter, and does the effect differ from team to team?\nThis project, completed for the Causal Inference capstone at Macalester College, estimates the causal effect of playing at home on winning for every MLB team, using game data from Retrosheet and Baseball Reference."
+  },
+  {
+    "objectID": "projects/home-field-advantage/index.html#approach",
+    "href": "projects/home-field-advantage/index.html#approach",
+    "title": "The Reality of Home Field Advantage",
+    "section": "Approach",
+    "text": "Approach\n\nBuilt a causal graph (DAG) to map how home field could affect winning through factors like attendance, comfort, and performance, and to identify confounders such as opponent strength, starting pitcher, day or night games, and day of the week\nUsed partial exact matching to compare home games against similar away games for each team\nEstimated the average treatment effect on the treated (ATT) and on the controls (ATC) for all 30 teams\nRan E-value sensitivity analyses to test how strong an unmeasured confounder would need to be to explain away the results\n\n\n\n\nCausal graph used to guide the analysis"
+  },
+  {
+    "objectID": "projects/home-field-advantage/index.html#key-findings",
+    "href": "projects/home-field-advantage/index.html#key-findings",
+    "title": "The Reality of Home Field Advantage",
+    "section": "Key Findings",
+    "text": "Key Findings\n\nAbout half of the league showed a statistically significant boost in win rate at home.\nTeams with distinctive ballparks, such as the Colorado Rockies, Toronto Blue Jays, and New York Yankees, showed some of the largest effects, consistent with factors like elevation and park design.\nSome teams, including the Cincinnati Reds and Chicago Cubs, showed no significant home field advantage.\n\n\n\n\nEstimated effect of playing at home on win rate for each team, with confidence intervals\n\n\n\n\n\nHow many games each team would have won in 2023 without home field advantage"
   },
   {
     "objectID": "resume.html",
@@ -32,7 +151,7 @@
     "href": "resume.html#education",
     "title": "Resume",
     "section": "Education",
-    "text": "Education\n\nThe University of Texas at Austin, McCombs School of Business - Austin, TX May 2027 Master of Science in Business Analytics, GPA: 3.85 / 4\n\nRelevant Coursework: Advanced Machine Learning, Optimization, Information Management, Financial Management, Unstructured Data, Data Science\nStudent Ambassador for prospective and admitted students\n\n\n\nMacalester College, St. Paul, MN May 2025 Bachelor of Arts in Statistics, GPA: 3.79/4.0\n\nHonors: Cum Laude, Dean’s List, and MIAC All-Academic (2023 - 2025)\nRelevant Coursework: Bayesian Statistics, Causal Inference, Statistical Theory\nVarsity Baseball Team (2021 - 2025): Pitcher and team leader, committing 20-25 hours/week year-round while balancing athletics and a full academic course load with consistent success"
+    "text": "Education\n\nThe University of Texas at Austin, McCombs School of Business - Austin, TX May 2027 Master of Science in Business Analytics, GPA: 3.85 / 4\n\nRelevant Coursework: Advanced Machine Learning, Optimization, Information Management, Financial Management, Unstructured Data, Data Science\nStudent Ambassador for prospective and admitted students\n\n\n\nMacalester College, St. Paul, MN May 2025 Bachelor of Arts in Statistics, GPA: 3.79 / 4.0\n\nHonors: Cum Laude, Dean’s List, and MIAC All-Academic (2023 - 2025)\nRelevant Coursework: Bayesian Statistics, Causal Inference, Statistical Theory\nVarsity Baseball Team (2021 - 2025): Pitcher and team leader, committing 20-25 hours/week year-round while balancing athletics and a full academic course load with consistent success"
   },
   {
     "objectID": "resume.html#technical-skills",
@@ -47,12 +166,5 @@
     "title": "Resume",
     "section": "Experience",
     "text": "Experience\n\nBasal Strength · Austin, TX Sept 2026 – Present Business Analytics Intern\n\nBuilding an internal R-based analytics pipeline to automate collection, storage, and analysis of performance-testing and body-composition data for a strength-training startup\nDeveloping an internal R Shiny dashboard to give leadership self-service visibility into client and rep-level performance metrics\n\n\n\nAon · Minneapolis, MN June 2025 – April 2026 Catastrophe Modeling Analyst\n\nSupported exposure data and model output preparation for four concurrent client teams, ensuring accurate, on-time submissions for reinsurance renewals\nExecuted catastrophe models across five perils using RMS, Verisk, and AIR platforms, synthesizing outputs into client-ready summaries that informed multi-million-dollar risk transfer and reinsurance placement decisions\nBuilt client-specific process documentation to streamline future renewal cycles and reduce onboarding time for team members picking up an account\n\n\n\nKipsu · Minneapolis, MN May 2024 – August 2024 Accounting Intern\n\nRecovered $400K+ across 200 properties by owning accounts receivable and debt collection, driven by 1,200+ targeted client calls and emails\nSpearheaded outreach to property managers by identifying AR trends and collection gaps, driving consistent improvement in monthly recovery rates\nCreated Excel reports to inform business strategy and meet collection goals"
-  },
-  {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
-    "section": "",
-    "text": "A selection of analytics and data science projects. Click any project for details.\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\nNo matching items"
   }
 ]

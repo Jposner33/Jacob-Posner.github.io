@@ -11,4 +11,4 @@ page-layout: full
 title-block-banner: true
 ---
 
-A selection of analytics and data science projects. Click any project for details.
+A selection of my analytics and data science work, from agentic AI to causal inference and Bayesian modeling. Click any project for details.
