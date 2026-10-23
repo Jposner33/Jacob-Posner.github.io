@@ -1,0 +1,25 @@
+---
+title: "PROJECT TITLE"
+description: "One-sentence summary that shows on the Projects page."
+date: "2026-10-01"
+image: featured.png
+categories:
+  - R
+  - Regression
+---
+
+**Team:** Your teammates' names (or delete this line if solo)
+
+## Overview
+
+What question did you answer, and why does it matter?
+
+## Analysis
+
+PASTE THE BODY OF YOUR .qmd OR .Rmd HERE (everything below its YAML header),
+including your R code chunks. Keep any data files in this same folder.
+
+## Key Findings
+
+- Finding 1
+- Finding 2

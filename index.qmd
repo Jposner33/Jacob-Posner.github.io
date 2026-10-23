@@ -1,0 +1,45 @@
+---
+title: "Jacob Posner"
+about:
+  id: intro-heading
+  template: trestles
+  image: images/profilepic.jpg
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/YOUR-LINKEDIN-HANDLE
+    - icon: github
+      text: GitHub
+      href: https://github.com/YOUR-GITHUB-USERNAME
+    - icon: envelope
+      text: Email
+      href: mailto:YOUR-EMAIL
+---
+
+:::{#intro-heading}
+
+I'm a Master of Science in Business Analytics student at UT Austin's McCombs School of Business, graduating in May 2027. I use statistics, modeling, and data tools to help organizations make better decisions, with a particular interest in sports analytics and sports science.
+
+## Education
+
+The University of Texas at Austin, McCombs School of Business | Austin, TX <br>
+M.S. in Business Analytics | Expected May 2027
+
+Macalester College | St. Paul, MN <br>
+B.A. in Statistics | Varsity Baseball
+
+## Experience
+
+Basal Strength | Business Analyst Intern <br>
+Built a streamlined pipeline to pull and clean customer data from the company API for client reports, cutting turnaround by days per customer.
+
+Aon | Catastrophe Modeling Analyst Trainee <br>
+Led the client renewal process on the reinsurance brokerage team and documented and optimized team workflows.
+
+Kipsu | Accounting Intern
+
+## Skills
+
+R (tidyverse), Python (pandas), SQL, regression and Bayesian modeling, clustering, text analytics
+
+:::

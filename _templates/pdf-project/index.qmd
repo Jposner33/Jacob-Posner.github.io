@@ -1,0 +1,26 @@
+---
+title: "PROJECT TITLE"
+description: "One-sentence summary that shows on the Projects page."
+date: "2026-10-01"
+image: featured.png
+categories:
+  - Python
+  - Clustering
+---
+
+**Team:** Your teammates' names (or delete this line if solo)
+
+## Overview
+
+What question did you answer, and why does it matter?
+
+## Approach
+
+Two or three sentences on the data and methods.
+
+## Key Findings
+
+- Finding 1
+- Finding 2
+
+[Read the full report (PDF)](report.pdf){.btn .btn-primary}

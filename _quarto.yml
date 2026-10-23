@@ -1,0 +1,35 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Jacob Posner"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: projects.qmd
+        text: Projects
+      - href: posts.qmd
+        text: Posts
+    right:
+      - icon: github
+        href: https://github.com/YOUR-GITHUB-USERNAME
+      - icon: linkedin
+        href: https://www.linkedin.com/in/YOUR-LINKEDIN-HANDLE
+  page-footer:
+    left: |
+      &copy; Jacob Posner, 2026<br>
+      All content licensed under <i class='bi-badge-cc'></i>
+      [(CC BY-NC-SA 4.0)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
+    right: |
+      Site built with <a href='https://quarto.org/'>Quarto</a>
+
+execute:
+  freeze: auto
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
