@@ -10,8 +10,6 @@ website:
         text: Home
       - href: projects.qmd
         text: Projects
-      - href: posts.qmd
-        text: Posts
     right:
       - icon: github
         href: https://github.com/jposner33
