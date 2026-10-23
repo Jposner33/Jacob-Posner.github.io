@@ -14,9 +14,9 @@ website:
         text: Posts
     right:
       - icon: github
-        href: https://github.com/YOUR-GITHUB-USERNAME
+        href: https://github.com/jposner33
       - icon: linkedin
-        href: https://www.linkedin.com/in/YOUR-LINKEDIN-HANDLE
+        href: https://www.linkedin.com/in/jacob-l-posner
   page-footer:
     left: |
       &copy; Jacob Posner, 2026<br>

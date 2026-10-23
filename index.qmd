@@ -7,13 +7,13 @@ about:
   links:
     - icon: linkedin
       text: LinkedIn
-      href: https://www.linkedin.com/in/YOUR-LINKEDIN-HANDLE
+      href: https://www.linkedin.com/in/jacob-l-posner
     - icon: github
       text: GitHub
-      href: https://github.com/YOUR-GITHUB-USERNAME
+      href: https://github.com/jposner33
     - icon: envelope
       text: Email
-      href: mailto:YOUR-EMAIL
+      href: mailto:jposner@utexas.edu
 ---
 
 :::{#intro-heading}

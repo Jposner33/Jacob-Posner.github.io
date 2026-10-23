@@ -23,4 +23,4 @@ Two or three sentences on the data and methods.
 - Finding 1
 - Finding 2
 
-[View the code on GitHub](https://github.com/YOUR-GITHUB-USERNAME/REPO-NAME){.btn .btn-primary}
+[View the code on GitHub](https://github.com/jposner33/REPO-NAME){.btn .btn-primary}
