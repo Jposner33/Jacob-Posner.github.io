@@ -4,25 +4,37 @@ resources:
   - Jacob_Posner_Resume.pdf
 ---
 
+::: {.resume-contact}
+[jposner@utexas.edu](mailto:jposner@utexas.edu) • [github.com/jposner33](https://github.com/jposner33) • [linkedin.com/in/jacob-l-posner](https://www.linkedin.com/in/jacob-l-posner) • Austin, TX
+:::
+
 [Download PDF](Jacob_Posner_Resume.pdf){.btn .btn-primary download="Jacob_Posner_Resume.pdf"}
 
 ## Education
 
 ::: {.entry}
-[[The University of Texas at Austin, McCombs School of Business]{.entry-org} [May 2027]{.entry-meta}]{.entry-head}
-[Master of Science in Business Analytics · GPA 3.85]{.entry-role}
+[[The University of Texas at Austin, McCombs School of Business - Austin, TX]{.entry-org} [May 2027]{.entry-meta}]{.entry-head}
+[Master of Science in Business Analytics, GPA: 3.85 / 4]{.entry-role}
 
-- Relevant coursework: Advanced Machine Learning, Optimization, Information Management, Financial Management, Unstructured Data, Data Science
+- Relevant Coursework: Advanced Machine Learning, Optimization, Information Management, Financial Management, Unstructured Data, Data Science
 - Student Ambassador for prospective and admitted students
 :::
 
 ::: {.entry}
-[[Macalester College]{.entry-org} [May 2025]{.entry-meta}]{.entry-head}
-[Bachelor of Arts in Statistics · GPA 3.79 · Cum Laude]{.entry-role}
+[[Macalester College, St. Paul, MN]{.entry-org} [May 2025]{.entry-meta}]{.entry-head}
+[Bachelor of Arts in Statistics, GPA: 3.79/4.0]{.entry-role}
 
-- Honors: Cum Laude, Dean's List, MIAC All-Academic (2023–2025)
-- Relevant coursework: Bayesian Statistics, Causal Inference, Statistical Theory
-- Varsity Baseball (2021–2025): pitcher and team leader, committing 20–25 hours a week year-round alongside a full course load
+- Honors: Cum Laude, Dean's List, and MIAC All-Academic (2023 - 2025)
+- Relevant Coursework: Bayesian Statistics, Causal Inference, Statistical Theory
+- Varsity Baseball Team (2021 - 2025): Pitcher and team leader, committing 20-25 hours/week year-round while balancing athletics and a full academic course load with consistent success
+:::
+
+## Technical Skills
+
+::: {.entry}
+- **Technology:** Snowflake, Git, GitHub
+- **Programming Languages:** R, Python, SQL
+- **Office Suite:** Excel, Google Office Suite
 :::
 
 ## Experience
@@ -51,10 +63,4 @@ resources:
 - Recovered $400K+ across 200 properties by owning accounts receivable and debt collection, driven by 1,200+ targeted client calls and emails
 - Spearheaded outreach to property managers by identifying AR trends and collection gaps, driving consistent improvement in monthly recovery rates
 - Created Excel reports to inform business strategy and meet collection goals
-:::
-
-## Technical Skills
-
-::: {.skill-pills}
-[R]{} [Python]{} [SQL]{} [R Shiny]{} [Snowflake]{} [Git / GitHub]{} [Excel]{} [Google Workspace]{} [Bayesian statistics]{} [Causal inference]{} [Machine learning]{}
 :::

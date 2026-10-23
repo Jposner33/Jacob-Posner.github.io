@@ -32,14 +32,21 @@
     "href": "resume.html",
     "title": "Resume",
     "section": "",
-    "text": "Download PDF"
+    "text": "jposner@utexas.edu • github.com/jposner33 • linkedin.com/in/jacob-l-posner • Austin, TX\nDownload PDF"
   },
   {
     "objectID": "resume.html#education",
     "href": "resume.html#education",
     "title": "Resume",
     "section": "Education",
-    "text": "Education\n\nThe University of Texas at Austin, McCombs School of Business May 2027 Master of Science in Business Analytics · GPA 3.85\n\nRelevant coursework: Advanced Machine Learning, Optimization, Information Management, Financial Management, Unstructured Data, Data Science\nStudent Ambassador for prospective and admitted students\n\n\n\nMacalester College May 2025 Bachelor of Arts in Statistics · GPA 3.79 · Cum Laude\n\nHonors: Cum Laude, Dean’s List, MIAC All-Academic (2023–2025)\nRelevant coursework: Bayesian Statistics, Causal Inference, Statistical Theory\nVarsity Baseball (2021–2025): pitcher and team leader, committing 20–25 hours a week year-round alongside a full course load"
+    "text": "Education\n\nThe University of Texas at Austin, McCombs School of Business - Austin, TX May 2027 Master of Science in Business Analytics, GPA: 3.85 / 4\n\nRelevant Coursework: Advanced Machine Learning, Optimization, Information Management, Financial Management, Unstructured Data, Data Science\nStudent Ambassador for prospective and admitted students\n\n\n\nMacalester College, St. Paul, MN May 2025 Bachelor of Arts in Statistics, GPA: 3.79/4.0\n\nHonors: Cum Laude, Dean’s List, and MIAC All-Academic (2023 - 2025)\nRelevant Coursework: Bayesian Statistics, Causal Inference, Statistical Theory\nVarsity Baseball Team (2021 - 2025): Pitcher and team leader, committing 20-25 hours/week year-round while balancing athletics and a full academic course load with consistent success"
+  },
+  {
+    "objectID": "resume.html#technical-skills",
+    "href": "resume.html#technical-skills",
+    "title": "Resume",
+    "section": "Technical Skills",
+    "text": "Technical Skills\n\n\nTechnology: Snowflake, Git, GitHub\nProgramming Languages: R, Python, SQL\nOffice Suite: Excel, Google Office Suite"
   },
   {
     "objectID": "resume.html#experience",
@@ -47,12 +54,5 @@
     "title": "Resume",
     "section": "Experience",
     "text": "Experience\n\nBasal Strength · Austin, TX Sept 2026 – Present Business Analytics Intern\n\nBuilding an internal R-based analytics pipeline to automate collection, storage, and analysis of performance-testing and body-composition data for a strength-training startup\nDeveloping an internal R Shiny dashboard to give leadership self-service visibility into client and rep-level performance metrics\n\n\n\nAon · Minneapolis, MN June 2025 – April 2026 Catastrophe Modeling Analyst\n\nSupported exposure data and model output preparation for four concurrent client teams, ensuring accurate, on-time submissions for reinsurance renewals\nExecuted catastrophe models across five perils using RMS, Verisk, and AIR platforms, synthesizing outputs into client-ready summaries that informed multi-million-dollar risk transfer and reinsurance placement decisions\nBuilt client-specific process documentation to streamline future renewal cycles and reduce onboarding time for team members picking up an account\n\n\n\nKipsu · Minneapolis, MN May 2024 – August 2024 Accounting Intern\n\nRecovered $400K+ across 200 properties by owning accounts receivable and debt collection, driven by 1,200+ targeted client calls and emails\nSpearheaded outreach to property managers by identifying AR trends and collection gaps, driving consistent improvement in monthly recovery rates\nCreated Excel reports to inform business strategy and meet collection goals"
-  },
-  {
-    "objectID": "resume.html#technical-skills",
-    "href": "resume.html#technical-skills",
-    "title": "Resume",
-    "section": "Technical Skills",
-    "text": "Technical Skills\n\nR Python SQL R Shiny Snowflake Git / GitHub Excel Google Workspace Bayesian statistics Causal inference Machine learning"
   }
 ]
