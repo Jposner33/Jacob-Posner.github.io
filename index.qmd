@@ -19,46 +19,21 @@ about:
 ::: {#intro-heading}
 
 ::: {.lead-intro}
-I'm a Master of Science in Business Analytics student at UT Austin's McCombs School of Business, graduating in May 2027. I use statistics, modeling, and data tools to help organizations make better decisions, with a particular interest in sports analytics and sports science.
+I'm a Master of Science in Business Analytics student at UT Austin's McCombs School of Business, graduating in May 2027. I use statistics, modeling, and data tools to help organizations make better decisions.
 :::
 
-## Education
+## About Me
 
-::: {.entry}
-[[The University of Texas at Austin]{.entry-org} [Austin, TX]{.entry-meta}]{.entry-head}
-[M.S. in Business Analytics, McCombs School of Business · Expected May 2027]{.entry-role}
-:::
+My path into analytics started with a statistics degree at Macalester College, where I also played on the baseball team. That combination shaped how I think: I'm most interested in problems where good data and good models change real decisions, whether that's on a field or in a business.
 
-::: {.entry}
-[[Macalester College]{.entry-org} [St. Paul, MN]{.entry-meta}]{.entry-head}
-[B.A. in Statistics · Varsity Baseball]{.entry-role}
-:::
+After Macalester, I worked as a catastrophe modeling analyst trainee at Aon, where I led parts of the client renewal process and learned how analysis supports high-stakes decisions. I'm now at UT Austin building my toolkit in machine learning, data management, and unstructured data, while working as a business analyst intern at Basal Strength, a health and strength testing startup.
 
-## Experience
+## What I'm Interested In
 
-::: {.entry}
-[[Basal Strength]{.entry-org} [Austin, TX]{.entry-meta}]{.entry-head}
-[Business Analyst Intern]{.entry-role}
+I'm especially drawn to sports analytics and sports science, and more broadly to analytics and modeling roles where I can turn messy data into clear recommendations.
 
-Built a streamlined pipeline to pull and clean customer data from the company API for client reports, cutting turnaround by days per customer.
-:::
+Outside of work and school, you'll probably find me watching baseball.
 
-::: {.entry}
-[[Aon]{.entry-org} [Minneapolis, MN]{.entry-meta}]{.entry-head}
-[Catastrophe Modeling Analyst Trainee]{.entry-role}
-
-Led the client renewal process on the reinsurance brokerage team and documented and optimized team workflows.
-:::
-
-::: {.entry}
-[[Kipsu]{.entry-org}]{.entry-head}
-[Accounting Intern]{.entry-role}
-:::
-
-## Skills
-
-::: {.skill-pills}
-[R (tidyverse)]{} [Python (pandas)]{} [SQL]{} [Regression]{} [Bayesian modeling]{} [Clustering]{} [Text analytics]{}
-:::
+[See my resume →](resume.qmd){.btn .btn-primary}
 
 :::

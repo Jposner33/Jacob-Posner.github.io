@@ -79,7 +79,7 @@ h2::after {
 .entry .entry-role { color: $primary; font-weight: 500; font-size: 0.95rem; }
 .entry p { margin: 0.15rem 0 0; font-size: 0.97rem; color: #3E4C59; }
 .skill-pills { display: flex; flex-wrap: wrap; gap: 0.45rem; }
-.skill-pills span { background: #fff; border: 1px solid rgba(31,41,51,0.12); border-radius: 999px; padding: 0.2rem 0.75rem; font-size: 0.88rem; }
+.skill-pills span { white-space: nowrap; background: #fff; border: 1px solid rgba(31,41,51,0.12); border-radius: 999px; padding: 0.2rem 0.75rem; font-size: 0.88rem; }
 
 // Title banners on listing pages
 .quarto-title-banner {

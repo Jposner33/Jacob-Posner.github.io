@@ -1,0 +1,44 @@
+---
+title: "Resume"
+---
+
+## Education
+
+
+::: {.entry}
+[[The University of Texas at Austin]{.entry-org} [Austin, TX]{.entry-meta}]{.entry-head}
+[M.S. in Business Analytics, McCombs School of Business · Expected May 2027]{.entry-role}
+:::
+
+::: {.entry}
+[[Macalester College]{.entry-org} [St. Paul, MN]{.entry-meta}]{.entry-head}
+[B.A. in Statistics · Varsity Baseball]{.entry-role}
+:::
+
+## Experience
+
+::: {.entry}
+[[Basal Strength]{.entry-org} [Austin, TX]{.entry-meta}]{.entry-head}
+[Business Analyst Intern]{.entry-role}
+
+Built a streamlined pipeline to pull and clean customer data from the company API for client reports, cutting turnaround by days per customer.
+:::
+
+::: {.entry}
+[[Aon]{.entry-org} [Minneapolis, MN]{.entry-meta}]{.entry-head}
+[Catastrophe Modeling Analyst Trainee]{.entry-role}
+
+Led the client renewal process on the reinsurance brokerage team and documented and optimized team workflows.
+:::
+
+::: {.entry}
+[[Kipsu]{.entry-org}]{.entry-head}
+[Accounting Intern]{.entry-role}
+:::
+
+## Skills
+
+::: {.skill-pills}
+[R (tidyverse)]{} [Python (pandas)]{} [SQL]{} [Regression]{} [Bayesian modeling]{} [Clustering]{} [Text analytics]{}
+:::
+

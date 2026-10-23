@@ -4,28 +4,21 @@
     "href": "index.html",
     "title": "Jacob Posner",
     "section": "",
-    "text": "LinkedIn\n  \n  \n    \n     GitHub\n  \n  \n    \n     Email\n  \n\n  \n  \n\nI’m a Master of Science in Business Analytics student at UT Austin’s McCombs School of Business, graduating in May 2027. I use statistics, modeling, and data tools to help organizations make better decisions, with a particular interest in sports analytics and sports science.\n\n\n\n\nThe University of Texas at Austin Austin, TX M.S. in Business Analytics, McCombs School of Business · Expected May 2027\n\n\nMacalester College St. Paul, MN B.A. in Statistics · Varsity Baseball\n\n\n\n\n\nBasal Strength Austin, TX Business Analyst Intern\nBuilt a streamlined pipeline to pull and clean customer data from the company API for client reports, cutting turnaround by days per customer.\n\n\nAon Minneapolis, MN Catastrophe Modeling Analyst Trainee\nLed the client renewal process on the reinsurance brokerage team and documented and optimized team workflows.\n\n\nKipsu Accounting Intern\n\n\n\n\n\nR (tidyverse) Python (pandas) SQL Regression Bayesian modeling Clustering Text analytics"
+    "text": "LinkedIn\n  \n  \n    \n     GitHub\n  \n  \n    \n     Email\n  \n\n  \n  \n\nI’m a Master of Science in Business Analytics student at UT Austin’s McCombs School of Business, graduating in May 2027. I use statistics, modeling, and data tools to help organizations make better decisions.\n\n\n\nMy path into analytics started with a statistics degree at Macalester College, where I also played on the baseball team. That combination shaped how I think: I’m most interested in problems where good data and good models change real decisions, whether that’s on a field or in a business.\nAfter Macalester, I worked as a catastrophe modeling analyst trainee at Aon, where I led parts of the client renewal process and learned how analysis supports high-stakes decisions. I’m now at UT Austin building my toolkit in machine learning, data management, and unstructured data, while working as a business analyst intern at Basal Strength, a health and strength testing startup.\n\n\n\nI’m especially drawn to sports analytics and sports science, and more broadly to analytics and modeling roles where I can turn messy data into clear recommendations.\nOutside of work and school, you’ll probably find me watching baseball.\nSee my resume →"
   },
   {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
     "title": "Jacob Posner",
     "section": "",
-    "text": "The University of Texas at Austin Austin, TX M.S. in Business Analytics, McCombs School of Business · Expected May 2027\n\n\nMacalester College St. Paul, MN B.A. in Statistics · Varsity Baseball"
+    "text": "My path into analytics started with a statistics degree at Macalester College, where I also played on the baseball team. That combination shaped how I think: I’m most interested in problems where good data and good models change real decisions, whether that’s on a field or in a business.\nAfter Macalester, I worked as a catastrophe modeling analyst trainee at Aon, where I led parts of the client renewal process and learned how analysis supports high-stakes decisions. I’m now at UT Austin building my toolkit in machine learning, data management, and unstructured data, while working as a business analyst intern at Basal Strength, a health and strength testing startup."
   },
   {
-    "objectID": "index.html#experience",
-    "href": "index.html#experience",
+    "objectID": "index.html#what-im-interested-in",
+    "href": "index.html#what-im-interested-in",
     "title": "Jacob Posner",
     "section": "",
-    "text": "Basal Strength Austin, TX Business Analyst Intern\nBuilt a streamlined pipeline to pull and clean customer data from the company API for client reports, cutting turnaround by days per customer.\n\n\nAon Minneapolis, MN Catastrophe Modeling Analyst Trainee\nLed the client renewal process on the reinsurance brokerage team and documented and optimized team workflows.\n\n\nKipsu Accounting Intern"
-  },
-  {
-    "objectID": "index.html#skills",
-    "href": "index.html#skills",
-    "title": "Jacob Posner",
-    "section": "",
-    "text": "R (tidyverse) Python (pandas) SQL Regression Bayesian modeling Clustering Text analytics"
+    "text": "I’m especially drawn to sports analytics and sports science, and more broadly to analytics and modeling roles where I can turn messy data into clear recommendations.\nOutside of work and school, you’ll probably find me watching baseball.\nSee my resume →"
   },
   {
     "objectID": "projects.html",
@@ -33,5 +26,33 @@
     "title": "Projects",
     "section": "",
     "text": "A selection of analytics and data science projects. Click any project for details.\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Resume",
+    "section": "",
+    "text": "The University of Texas at Austin Austin, TX M.S. in Business Analytics, McCombs School of Business · Expected May 2027\n\n\nMacalester College St. Paul, MN B.A. in Statistics · Varsity Baseball"
+  },
+  {
+    "objectID": "resume.html#education",
+    "href": "resume.html#education",
+    "title": "Resume",
+    "section": "",
+    "text": "The University of Texas at Austin Austin, TX M.S. in Business Analytics, McCombs School of Business · Expected May 2027\n\n\nMacalester College St. Paul, MN B.A. in Statistics · Varsity Baseball"
+  },
+  {
+    "objectID": "resume.html#experience",
+    "href": "resume.html#experience",
+    "title": "Resume",
+    "section": "Experience",
+    "text": "Experience\n\nBasal Strength Austin, TX Business Analyst Intern\nBuilt a streamlined pipeline to pull and clean customer data from the company API for client reports, cutting turnaround by days per customer.\n\n\nAon Minneapolis, MN Catastrophe Modeling Analyst Trainee\nLed the client renewal process on the reinsurance brokerage team and documented and optimized team workflows.\n\n\nKipsu Accounting Intern"
+  },
+  {
+    "objectID": "resume.html#skills",
+    "href": "resume.html#skills",
+    "title": "Resume",
+    "section": "Skills",
+    "text": "Skills\n\nR (tidyverse) Python (pandas) SQL Regression Bayesian modeling Clustering Text analytics"
   }
 ]
