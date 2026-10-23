@@ -26,6 +26,8 @@ I'm a Master of Science in Business Analytics student at UT Austin's McCombs Sch
 
 My path into analytics started with a statistics degree at Macalester College, where I also played on the baseball team. That combination shaped how I think: I'm most interested in problems where good data and good models change real decisions, whether that's on a field or in a business.
 
+![](images/baseball.jpg){.about-photo fig-alt="Jacob Posner pitching for Macalester College"}
+
 After Macalester, I worked as a catastrophe modeling analyst at Aon, running catastrophe models and turning their outputs into summaries that informed multi-million-dollar reinsurance decisions. I'm now at UT Austin building my toolkit in machine learning, optimization, and unstructured data, while working as a business analytics intern at Basal Strength, a strength-training startup, where I'm building an R analytics pipeline and Shiny dashboard.
 
 ## What I'm Interested In
