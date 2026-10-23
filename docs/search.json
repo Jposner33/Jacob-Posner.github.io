@@ -25,35 +25,70 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "A selection of my analytics and data science work, from agentic AI to causal inference and Bayesian modeling. Click any project for details.\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nTonight, Sorted\n\n\n\nPython\n\nLLMs\n\nRAG\n\nStreamlit\n\n\n\nAn agentic AI recommender that turns a plain-English plan into three real, nearby places, with a transparent explanation of why each one fits.\n\n\n\n\n\n\nOct 18, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Reality of Home Field Advantage\n\n\n\nR\n\nCausal Inference\n\nSports Analytics\n\n\n\nA causal inference study estimating how much playing at home actually changes win rates for each of the 30 MLB teams.\n\n\n\n\n\n\nDec 14, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Impact of the ACA on Healthcare Access in Minnesota\n\n\n\nR\n\nShiny\n\nData Visualization\n\nHealthcare\n\n\n\nA county-level analysis of how the Affordable Care Act changed insurance coverage and health outcomes across Minnesota, with an interactive R Shiny app.\n\n\n\n\n\n\nDec 13, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nHealth Equity Through Breast Cancer Patient Data\n\n\n\nR\n\nBayesian Modeling\n\nHealthcare\n\n\n\nA Bayesian analysis of which patient, insurance, and geographic factors predict whether breast cancer is diagnosed within 90 days of a first hospital visit.\n\n\n\n\n\n\nMay 2, 2024\n\n\n\n\n\n\nNo matching items"
+    "text": "A selection of my analytics and data science work, from agentic AI to causal inference and Bayesian modeling. Click any project for details.\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nTonight, Sorted\n\n\n\nPython\n\nLLMs\n\nRAG\n\nStreamlit\n\n\n\nAn agentic AI recommender that turns a plain-English plan into three real, nearby places, with a transparent explanation of why each one fits.\n\n\n\n\n\n\nOct 18, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nOptimizing Under Risk with CVaR\n\n\n\nPython\n\nOptimization\n\nLinear Programming\n\nGurobi\n\n\n\nA linear programming model in Gurobi that builds a 496-stock portfolio minimizing tail risk, tested out-of-sample against the S&P 500.\n\n\n\n\n\n\nOct 1, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Reality of Home Field Advantage\n\n\n\nR\n\nCausal Inference\n\nSports Analytics\n\n\n\nA causal inference study estimating how much playing at home actually changes win rates for each of the 30 MLB teams.\n\n\n\n\n\n\nDec 14, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Impact of the ACA on Healthcare Access in Minnesota\n\n\n\nR\n\nShiny\n\nData Visualization\n\nHealthcare\n\n\n\nA county-level analysis of how the Affordable Care Act changed insurance coverage and health outcomes across Minnesota, with an interactive R Shiny app.\n\n\n\n\n\n\nDec 13, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nHealth Equity Through Breast Cancer Patient Data\n\n\n\nR\n\nBayesian Modeling\n\nHealthcare\n\n\n\nA Bayesian analysis of which patient, insurance, and geographic factors predict whether breast cancer is diagnosed within 90 days of a first hospital visit.\n\n\n\n\n\n\nMay 2, 2024\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "projects/breast-cancer-bayes/index.html",
-    "href": "projects/breast-cancer-bayes/index.html",
-    "title": "Health Equity Through Breast Cancer Patient Data",
+    "objectID": "projects/cvar-optimization/index.html",
+    "href": "projects/cvar-optimization/index.html",
+    "title": "Optimizing Under Risk with CVaR",
     "section": "",
-    "text": "View the code on GitHub"
+    "text": "Most models predict what will happen. Optimization models decide what to do. This project, completed for Optimization in the UT Austin MSBA program, uses linear programming to make an allocation decision under uncertainty: how to spread money across 496 stocks so that losses on the worst days are as small as possible, while still meeting a minimum expected return.\nThe risk measure is Conditional Value-at-Risk (CVaR), the average loss on the worst days rather than just a single cutoff. That makes it more sensitive to extreme outcomes than simpler risk measures."
   },
   {
-    "objectID": "projects/breast-cancer-bayes/index.html#overview",
-    "href": "projects/breast-cancer-bayes/index.html#overview",
-    "title": "Health Equity Through Breast Cancer Patient Data",
-    "section": "Overview",
-    "text": "Overview\nAccess to timely care is not evenly distributed in the United States. This project, completed for Bayesian Statistics at Macalester College, asks which factors affect whether a breast cancer patient is diagnosed within 90 days of their first hospital visit, among patients diagnosed between 2015 and 2018."
+    "objectID": "projects/cvar-optimization/index.html#overview",
+    "href": "projects/cvar-optimization/index.html#overview",
+    "title": "Optimizing Under Risk with CVaR",
+    "section": "",
+    "text": "Most models predict what will happen. Optimization models decide what to do. This project, completed for Optimization in the UT Austin MSBA program, uses linear programming to make an allocation decision under uncertainty: how to spread money across 496 stocks so that losses on the worst days are as small as possible, while still meeting a minimum expected return.\nThe risk measure is Conditional Value-at-Risk (CVaR), the average loss on the worst days rather than just a single cutoff. That makes it more sensitive to extreme outcomes than simpler risk measures."
   },
   {
-    "objectID": "projects/breast-cancer-bayes/index.html#approach",
-    "href": "projects/breast-cancer-bayes/index.html#approach",
-    "title": "Health Equity Through Breast Cancer Patient Data",
+    "objectID": "projects/cvar-optimization/index.html#approach",
+    "href": "projects/cvar-optimization/index.html#approach",
+    "title": "Optimizing Under Risk with CVaR",
     "section": "Approach",
-    "text": "Approach\n\nCombined patient-level breast cancer data with zip-code demographics and state-level hospital data\nExplored differences in timely diagnosis by state, race, insurance type, income, and age\nFit Bayesian logistic regression models, including a ridge-style regularized model, and checked convergence and fit with trace plots, autocorrelation, and posterior predictive checks"
+    "text": "Approach\n\nData: collected daily prices for every S&P 500 company, cleaned out tickers with missing history, and kept 496 stocks. The model was built on 2025 data and tested on 2026 data it had never seen.\nModel: formulated CVaR minimization as a linear program in Gurobi, with variables for each stock’s weight, the risk threshold, and each day’s loss beyond that threshold. Constraints require the weights to sum to one and the portfolio to meet a minimum daily return.\nScenarios tested:\n\nDifferent confidence levels (worst 10%, 5%, and 1% of days)\nA minimax version that minimizes the worst month’s risk instead of the yearly average\nMonthly re-optimization on a rolling 12-month window\nA stability check on how much the portfolio changes from month to month\n\n\n# Core CVaR linear program (Rockafellar–Uryasev formulation)\nmodel = gp.Model(\"CVaR\")\nx = model.addMVar(n, lb=0)                    # portfolio weights\nalpha = model.addVar(lb=-gp.GRB.INFINITY)     # value-at-risk threshold\nu = model.addMVar(q, lb=0)                    # loss beyond threshold, per day\n\nmodel.setObjective(alpha + (1 / ((1 - beta) * q)) * u.sum(), gp.GRB.MINIMIZE)\nmodel.addConstrs(u[k] &gt;= -Y[k, :] @ x - alpha for k in range(q))\nmodel.addConstr(x.sum() == 1)                 # fully invested\nmodel.addConstr(y_bar @ x &gt;= R)               # minimum expected return\nmodel.optimize()"
   },
   {
-    "objectID": "projects/breast-cancer-bayes/index.html#key-findings",
-    "href": "projects/breast-cancer-bayes/index.html#key-findings",
-    "title": "Health Equity Through Breast Cancer Patient Data",
+    "objectID": "projects/cvar-optimization/index.html#key-findings",
+    "href": "projects/cvar-optimization/index.html#key-findings",
+    "title": "Optimizing Under Risk with CVaR",
     "section": "Key Findings",
-    "text": "Key Findings\n\nWhere a patient lived was strongly associated with timely diagnosis. Holding personal and zip-code demographics constant, a patient in Minnesota had roughly nine times the odds of a diagnosis within 90 days as a similar patient in Alabama.\nInsurance type also mattered, with commercially insured patients making up the largest share of timely diagnoses.\nLimitations include having only a yes/no outcome rather than days to diagnosis, and no hospital-level data.\n\n\n\n\nShare of patients diagnosed within 90 days, by state\n\n\n\n\n\nInsurance payer type by diagnosis status"
+    "text": "Key Findings\n\nThe optimized portfolio carried far less tail risk than the market. Its CVaR was about one-third of the S&P 500’s in 2025 and about two-thirds in 2026, using a diversified set of 31 stocks.\nPerformance slipped out-of-sample. Risk rose about 25% from 2025 to 2026, a reminder that market patterns aren’t stable and that models should be re-estimated as new data arrives.\nRe-optimizing every month didn’t reliably help. It lowered risk in some months and raised it in others, averaging only slightly better than the static portfolio.\nThe monthly portfolios were unstable. Every month-to-month change broke a 2-percentage-point stability limit, often with 20 or more stocks shifting at once, which would be hard to manage in practice."
+  },
+  {
+    "objectID": "projects/cvar-optimization/index.html#recommendation",
+    "href": "projects/cvar-optimization/index.html#recommendation",
+    "title": "Optimizing Under Risk with CVaR",
+    "section": "Recommendation",
+    "text": "Recommendation\nUse the static model at the 95% confidence level. It captures meaningful tail risk without relying on the handful of extreme days that made the 99% version unstable, and it avoids the churn of monthly re-optimization. If adapting to new data is a priority, the better next step is adding constraints that cap how much each weight can change month to month, rather than rebuilding the portfolio from scratch."
+  },
+  {
+    "objectID": "projects/tonight-sorted/index.html",
+    "href": "projects/tonight-sorted/index.html",
+    "title": "Tonight, Sorted",
+    "section": "",
+    "text": "Try the live demo View the code on GitHub"
+  },
+  {
+    "objectID": "projects/tonight-sorted/index.html#overview",
+    "href": "projects/tonight-sorted/index.html#overview",
+    "title": "Tonight, Sorted",
+    "section": "Overview",
+    "text": "Overview\nTonight, Sorted is a recommender app for figuring out what to do. You describe a plan the way you’d text a friend, such as “four of us want something fun and social tonight, not too expensive,” and the app returns three real places near you, each with a short explanation of why it fits.\nBuilt as the final project for Analytics for Unstructured Data in the UT Austin MSBA program, it brings together free-text understanding, embeddings, retrieval, and live data from several APIs."
+  },
+  {
+    "objectID": "projects/tonight-sorted/index.html#how-it-works",
+    "href": "projects/tonight-sorted/index.html#how-it-works",
+    "title": "Tonight, Sorted",
+    "section": "How It Works",
+    "text": "How It Works\nA planner LLM reads the request and decides which specialist agents it actually needs, then adapts if a step comes back empty. The app shows its work, including which agents ran or were skipped and how every venue was scored.\n\n\n\n\n\n\n\n\nStep\nWhat it does\nMethod\n\n\n\n\nPreference\nTurns free text into group size, budget, likes, dislikes, and hard vs. soft constraints\nLLM with structured JSON output\n\n\nDiscovery\nRanks 196 activity ideas by meaning, not keywords\nSentence embeddings and cosine similarity\n\n\nLocal places\nFinds real venues near the user\nGoogle Places API\n\n\nWeather, events, travel\nScores outdoor suitability, finds live events, and estimates drive times with traffic\nOpen-Meteo, Ticketmaster, Google Routes\n\n\nWebsite evidence\nReads each venue’s website and reviews and judges fit only from retrieved passages\nRetrieval-augmented generation (RAG)\n\n\nMatching\nProduces the final ranking\nWeighted score across activity fit, venue quality, travel, and evidence\n\n\nSynthesizer\nWrites the plain-language explanation\nLLM, with code verifying it kept the ranking"
+  },
+  {
+    "objectID": "projects/tonight-sorted/index.html#design-principle",
+    "href": "projects/tonight-sorted/index.html#design-principle",
+    "title": "Tonight, Sorted",
+    "section": "Design Principle",
+    "text": "Design Principle\nLLMs interpret and explain, while Python does all of the arithmetic. When a signal is missing, such as a venue with no website, it is dropped and the remaining weights are re-normalized instead of being filled with a made-up value. This keeps the rankings transparent and reproducible."
   },
   {
     "objectID": "projects/aca-minnesota/index.html",
@@ -84,32 +119,32 @@
     "text": "Key Findings\n\nUninsured rates fell sharply across Minnesota after the ACA took effect.\nLarge counties saw significantly greater improvement in health indicators than small counties.\nThe uninsured rate ticked back up slightly between 2015 and 2019, a period of rising premiums and reduced federal support for the law.\n\n\n\n\nPercent of residents uninsured by county, 2010 compared with 2019\n\n\n\n\n\nCounty health indicator trends before and after the ACA, large vs. small counties"
   },
   {
-    "objectID": "projects/tonight-sorted/index.html",
-    "href": "projects/tonight-sorted/index.html",
-    "title": "Tonight, Sorted",
+    "objectID": "projects/breast-cancer-bayes/index.html",
+    "href": "projects/breast-cancer-bayes/index.html",
+    "title": "Health Equity Through Breast Cancer Patient Data",
     "section": "",
-    "text": "Try the live demo View the code on GitHub"
+    "text": "View the code on GitHub"
   },
   {
-    "objectID": "projects/tonight-sorted/index.html#overview",
-    "href": "projects/tonight-sorted/index.html#overview",
-    "title": "Tonight, Sorted",
+    "objectID": "projects/breast-cancer-bayes/index.html#overview",
+    "href": "projects/breast-cancer-bayes/index.html#overview",
+    "title": "Health Equity Through Breast Cancer Patient Data",
     "section": "Overview",
-    "text": "Overview\nTonight, Sorted is a recommender app for figuring out what to do. You describe a plan the way you’d text a friend, such as “four of us want something fun and social tonight, not too expensive,” and the app returns three real places near you, each with a short explanation of why it fits.\nBuilt as the final project for Analytics for Unstructured Data in the UT Austin MSBA program, it brings together free-text understanding, embeddings, retrieval, and live data from several APIs."
+    "text": "Overview\nAccess to timely care is not evenly distributed in the United States. This project, completed for Bayesian Statistics at Macalester College, asks which factors affect whether a breast cancer patient is diagnosed within 90 days of their first hospital visit, among patients diagnosed between 2015 and 2018."
   },
   {
-    "objectID": "projects/tonight-sorted/index.html#how-it-works",
-    "href": "projects/tonight-sorted/index.html#how-it-works",
-    "title": "Tonight, Sorted",
-    "section": "How It Works",
-    "text": "How It Works\nA planner LLM reads the request and decides which specialist agents it actually needs, then adapts if a step comes back empty. The app shows its work, including which agents ran or were skipped and how every venue was scored.\n\n\n\n\n\n\n\n\nStep\nWhat it does\nMethod\n\n\n\n\nPreference\nTurns free text into group size, budget, likes, dislikes, and hard vs. soft constraints\nLLM with structured JSON output\n\n\nDiscovery\nRanks 196 activity ideas by meaning, not keywords\nSentence embeddings and cosine similarity\n\n\nLocal places\nFinds real venues near the user\nGoogle Places API\n\n\nWeather, events, travel\nScores outdoor suitability, finds live events, and estimates drive times with traffic\nOpen-Meteo, Ticketmaster, Google Routes\n\n\nWebsite evidence\nReads each venue’s website and reviews and judges fit only from retrieved passages\nRetrieval-augmented generation (RAG)\n\n\nMatching\nProduces the final ranking\nWeighted score across activity fit, venue quality, travel, and evidence\n\n\nSynthesizer\nWrites the plain-language explanation\nLLM, with code verifying it kept the ranking"
+    "objectID": "projects/breast-cancer-bayes/index.html#approach",
+    "href": "projects/breast-cancer-bayes/index.html#approach",
+    "title": "Health Equity Through Breast Cancer Patient Data",
+    "section": "Approach",
+    "text": "Approach\n\nCombined patient-level breast cancer data with zip-code demographics and state-level hospital data\nExplored differences in timely diagnosis by state, race, insurance type, income, and age\nFit Bayesian logistic regression models, including a ridge-style regularized model, and checked convergence and fit with trace plots, autocorrelation, and posterior predictive checks"
   },
   {
-    "objectID": "projects/tonight-sorted/index.html#design-principle",
-    "href": "projects/tonight-sorted/index.html#design-principle",
-    "title": "Tonight, Sorted",
-    "section": "Design Principle",
-    "text": "Design Principle\nLLMs interpret and explain, while Python does all of the arithmetic. When a signal is missing, such as a venue with no website, it is dropped and the remaining weights are re-normalized instead of being filled with a made-up value. This keeps the rankings transparent and reproducible."
+    "objectID": "projects/breast-cancer-bayes/index.html#key-findings",
+    "href": "projects/breast-cancer-bayes/index.html#key-findings",
+    "title": "Health Equity Through Breast Cancer Patient Data",
+    "section": "Key Findings",
+    "text": "Key Findings\n\nWhere a patient lived was strongly associated with timely diagnosis. Holding personal and zip-code demographics constant, a patient in Minnesota had roughly nine times the odds of a diagnosis within 90 days as a similar patient in Alabama.\nInsurance type also mattered, with commercially insured patients making up the largest share of timely diagnoses.\nLimitations include having only a yes/no outcome rather than days to diagnosis, and no hospital-level data.\n\n\n\n\nShare of patients diagnosed within 90 days, by state\n\n\n\n\n\nInsurance payer type by diagnosis status"
   },
   {
     "objectID": "projects/home-field-advantage/index.html",
