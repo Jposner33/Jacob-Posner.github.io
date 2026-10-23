@@ -4,10 +4,6 @@ resources:
   - Jacob_Posner_Resume.pdf
 ---
 
-::: {.resume-contact}
-[jposner@utexas.edu](mailto:jposner@utexas.edu) • [github.com/jposner33](https://github.com/jposner33) • [linkedin.com/in/jacob-l-posner](https://www.linkedin.com/in/jacob-l-posner) • Austin, TX
-:::
-
 [Download PDF](Jacob_Posner_Resume.pdf){.btn .btn-primary download="Jacob_Posner_Resume.pdf"}
 
 ## Education
