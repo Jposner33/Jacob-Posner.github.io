@@ -1,5 +1,14 @@
 [
   {
+    "listing": "/index.html",
+    "items": [
+      "/projects/tonight-sorted/index.html",
+      "/projects/home-field-advantage/index.html",
+      "/projects/aca-minnesota/index.html",
+      "/projects/breast-cancer-bayes/index.html"
+    ]
+  },
+  {
     "listing": "/projects.html",
     "items": [
       "/projects/tonight-sorted/index.html",

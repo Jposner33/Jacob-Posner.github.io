@@ -36,15 +36,18 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-23a06219543a0e491cfe83d4aea5d371.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-f365180b259952b0253e1f2df0ab4c72.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -72,12 +75,70 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-recent-projects .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-recent-projects'] = new List('listing-recent-projects', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -126,62 +187,161 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
 
-<div class="quarto-about-trestles">
-  <div class="about-entity">
-    <img src="images/profilepic.jpg" class="about-image
-  rounded " style="width: 20em;">
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Jacob Posner</h1>
-</div>
-<div class="quarto-title-meta">
-  </div>
-</header>
-    <div class="about-links">
-  <a href="https://www.linkedin.com/in/jacob-l-posner" class="about-link" rel="" target="">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text">LinkedIn</span>
-  </a>
-  <a href="https://github.com/jposner33" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">GitHub</span>
-  </a>
-  <a href="mailto:jposner@utexas.edu" class="about-link" rel="" target="">
-    <i class="bi bi-envelope"></i>
-     <span class="about-link-text">Email</span>
-  </a>
-</div>
-  </div>
-  <div class="about-contents"><div id="intro-heading">
-<div class="lead-intro">
+<section class="hero">
+  <div class="hero-text">
+    <span class="hero-kicker">MS Business Analytics · UT Austin '27</span>
+    <h1 class="hero-name">Hi, I'm Jacob.</h1>
+<div class="hero-lead">
 <p>I’m a Master of Science in Business Analytics student at UT Austin’s McCombs School of Business, graduating in May 2027. I’m passionate about turning messy, real-world data into clear answers that people can act on. With a foundation in statistics, I enjoy the full analytics process, from cleaning and structuring data to building models and communicating what they mean.</p>
 </div>
-<section id="about-me" class="level2">
-<h2 data-anchor-id="about-me">About Me</h2>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="projects.html">View my projects</a>
+      <a class="btn btn-ghost" href="resume.html">Resume</a>
+      <span class="hero-icons">
+        <a href="https://www.linkedin.com/in/jacob-l-posner" aria-label="LinkedIn" target="_blank"><i class="bi bi-linkedin"></i></a>
+        <a href="https://github.com/jposner33" aria-label="GitHub" target="_blank"><i class="bi bi-github"></i></a>
+        <a href="mailto:jposner@utexas.edu" aria-label="Email"><i class="bi bi-envelope-fill"></i></a>
+      </span>
+    </div>
+  </div>
+  <div class="hero-photo">
+    <div class="hero-photo-frame"></div>
+    <img src="images/profilepic.jpg" alt="Headshot of Jacob Posner">
+  </div>
+</section>
+
+<div class="now-strip">
+  <div><span class="now-label">Studying</span><span class="now-value">MS Business Analytics, UT Austin</span></div>
+  <div><span class="now-label">Working</span><span class="now-value">Business Analytics Intern, Basal Strength</span></div>
+  <div><span class="now-label">Based in</span><span class="now-value">Austin, TX</span></div>
+</div>
+<div class="home-section about-grid">
+<div class="about-side">
+<p><span class="section-kicker">About</span></p>
+<section id="about-heading" class="level2">
+<h2 class="anchored" data-anchor-id="about-heading">A little about me</h2>
 <p><img src="images/baseball.jpg" class="about-photo img-fluid" alt="Jacob Posner pitching for Macalester College"></p>
+</section>
+</div>
+<div class="about-body">
 <p>I grew up in Los Angeles playing baseball and going to countless Dodgers games and UCLA sporting events. As much as I loved being at every game, what really hooked me was keeping score and the stats behind it. As I got older, that interest grew into the advanced analytics that drive decisions during games and in training, from how pitchers attack hitters to how players develop.</p>
 <p>That passion stayed with me through college at Macalester, where I got to apply it both in the classroom as a statistics major and on the field as a pitcher. Seeing analytics from both sides, studying the methods and living the results on the mound, shaped how I think about data.</p>
 <p>After graduating, I worked at Aon in Minneapolis, where I got my first real experience using data and models to support business decisions. Now I’m in Austin pursuing my Master of Science in Business Analytics at UT, and working at Basal Strength, where I get to bring analytics back to sports and performance.</p>
-</section>
-<section id="what-im-interested-in" class="level2">
-<h2 data-anchor-id="what-im-interested-in">What I’m Interested In</h2>
+<section id="what-im-interested-in" class="level3">
+<h3 class="anchored" data-anchor-id="what-im-interested-in">What I’m interested in</h3>
 <p>What I enjoy most is taking messy, real-world data and turning it into something useful, whether that’s a recommendation that drives a business decision or an insight that helps an athlete or team perform better. That’s the work I’m passionate about, in business and in sports analytics.</p>
 <p>Outside of work and school, I enjoy playing, watching, and coaching baseball, doing CrossFit, and trying new food spots around Austin.</p>
-<p><a href="./resume.html" class="btn btn-primary">See my resume →</a></p>
 </section>
-</div></div>
 </div>
+</div>
+<div class="home-section">
+<div class="section-head">
+<p><span class="section-kicker">Selected work</span></p>
+<section id="recent-heading" class="level2">
+<h2 class="anchored" data-anchor-id="recent-heading">Recent projects</h2>
+<p><a href="./projects.html" class="section-link">See all projects →</a></p>
+</section>
+</div>
+<div id="listing-recent-projects" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="UHl0aG9uJTJDTExNcyUyQ1JBRyUyQ1N0cmVhbWxpdA==" data-listing-date-sort="1792299600000" data-listing-file-modified-sort="1792787724228" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="322">
+<a href="./projects/tonight-sorted/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./projects/tonight-sorted/featured.png" class="thumbnail-image card-img" style="height: 190px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Tonight, Sorted
+</h5>
+<div class="listing-categories">
 
+<div class="listing-category" onclick="window.quartoListingCategory('UHl0aG9u'); return false;">Python</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TExNcw=='); return false;">LLMs</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UkFH'); return false;">RAG</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('U3RyZWFtbGl0'); return false;">Streamlit</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>An agentic AI recommender that turns a plain-English plan into three real, nearby places, with a transparent explanation of why each one fits.</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="UiUyQ0NhdXNhbCUyMEluZmVyZW5jZSUyQ1Nwb3J0cyUyMEFuYWx5dGljcw==" data-listing-date-sort="1734156000000" data-listing-file-modified-sort="1792787593617" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="272">
+<a href="./projects/home-field-advantage/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./projects/home-field-advantage/featured.png" class="thumbnail-image card-img" style="height: 190px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+The Reality of Home Field Advantage
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">R</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Q2F1c2FsJTIwSW5mZXJlbmNl'); return false;">Causal Inference</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('U3BvcnRzJTIwQW5hbHl0aWNz'); return false;">Sports Analytics</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>A causal inference study estimating how much playing at home actually changes win rates for each of the 30 MLB teams.</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="UiUyQ1NoaW55JTJDRGF0YSUyMFZpc3VhbGl6YXRpb24lMkNIZWFsdGhjYXJl" data-listing-date-sort="1734069600000" data-listing-file-modified-sort="1792787593617" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="197">
+<a href="./projects/aca-minnesota/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./projects/aca-minnesota/featured.png" class="thumbnail-image card-img" style="height: 190px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+The Impact of the ACA on Healthcare Access in Minnesota
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">R</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('U2hpbnk='); return false;">Shiny</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('RGF0YSUyMFZpc3VhbGl6YXRpb24='); return false;">Data Visualization</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SGVhbHRoY2FyZQ=='); return false;">Healthcare</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>A county-level analysis of how the Affordable Care Act changed insurance coverage and health outcomes across Minnesota, with an interactive R Shiny app.</p>
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</div>
+<section class="cta">
+  <h2 class="anchored">Let's connect</h2>
+  <p>I'm always happy to talk analytics, sports, or anything data.</p>
+  <a class="btn btn-light-cta" href="mailto:jposner@utexas.edu">Get in touch</a>
+</section>
 
 
 
@@ -189,6 +349,13 @@ ul.task-list li input[type="checkbox"] {
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     

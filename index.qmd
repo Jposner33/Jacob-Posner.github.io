@@ -1,43 +1,97 @@
 ---
-title: "Jacob Posner"
-about:
-  id: intro-heading
-  template: trestles
-  image: images/profilepic.jpg
-  links:
-    - icon: linkedin
-      text: LinkedIn
-      href: https://www.linkedin.com/in/jacob-l-posner
-    - icon: github
-      text: GitHub
-      href: https://github.com/jposner33
-    - icon: envelope
-      text: Email
-      href: mailto:jposner@utexas.edu
+pagetitle: "Jacob Posner"
+page-layout: full
+listing:
+  id: recent-projects
+  contents: projects
+  sort: "date desc"
+  type: grid
+  max-items: 3
+  grid-columns: 3
+  fields: [image, title, description, categories]
+  image-height: 190px
 ---
 
-::: {#intro-heading}
+```{=html}
+<section class="hero">
+  <div class="hero-text">
+    <span class="hero-kicker">MS Business Analytics · UT Austin '27</span>
+    <h1 class="hero-name">Hi, I'm Jacob.</h1>
+```
 
-::: {.lead-intro}
+::: {.hero-lead}
 I’m a Master of Science in Business Analytics student at UT Austin’s McCombs School of Business, graduating in May 2027. I’m passionate about turning messy, real-world data into clear answers that people can act on. With a foundation in statistics, I enjoy the full analytics process, from cleaning and structuring data to building models and communicating what they mean.
 :::
 
-## About Me
+```{=html}
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="projects.html">View my projects</a>
+      <a class="btn btn-ghost" href="resume.html">Resume</a>
+      <span class="hero-icons">
+        <a href="https://www.linkedin.com/in/jacob-l-posner" aria-label="LinkedIn" target="_blank"><i class="bi bi-linkedin"></i></a>
+        <a href="https://github.com/jposner33" aria-label="GitHub" target="_blank"><i class="bi bi-github"></i></a>
+        <a href="mailto:jposner@utexas.edu" aria-label="Email"><i class="bi bi-envelope-fill"></i></a>
+      </span>
+    </div>
+  </div>
+  <div class="hero-photo">
+    <div class="hero-photo-frame"></div>
+    <img src="images/profilepic.jpg" alt="Headshot of Jacob Posner">
+  </div>
+</section>
+
+<div class="now-strip">
+  <div><span class="now-label">Studying</span><span class="now-value">MS Business Analytics, UT Austin</span></div>
+  <div><span class="now-label">Working</span><span class="now-value">Business Analytics Intern, Basal Strength</span></div>
+  <div><span class="now-label">Based in</span><span class="now-value">Austin, TX</span></div>
+</div>
+```
+
+::: {.home-section .about-grid}
+
+::: {.about-side}
+[About]{.section-kicker}
+
+## A little about me {#about-heading}
 
 ![](images/baseball.jpg){.about-photo fig-alt="Jacob Posner pitching for Macalester College"}
+:::
 
+::: {.about-body}
 I grew up in Los Angeles playing baseball and going to countless Dodgers games and UCLA sporting events. As much as I loved being at every game, what really hooked me was keeping score and the stats behind it. As I got older, that interest grew into the advanced analytics that drive decisions during games and in training, from how pitchers attack hitters to how players develop.
 
 That passion stayed with me through college at Macalester, where I got to apply it both in the classroom as a statistics major and on the field as a pitcher. Seeing analytics from both sides, studying the methods and living the results on the mound, shaped how I think about data.
 
 After graduating, I worked at Aon in Minneapolis, where I got my first real experience using data and models to support business decisions. Now I’m in Austin pursuing my Master of Science in Business Analytics at UT, and working at Basal Strength, where I get to bring analytics back to sports and performance.
 
-## What I'm Interested In
+### What I'm interested in
 
 What I enjoy most is taking messy, real-world data and turning it into something useful, whether that’s a recommendation that drives a business decision or an insight that helps an athlete or team perform better. That’s the work I’m passionate about, in business and in sports analytics.
 
 Outside of work and school, I enjoy playing, watching, and coaching baseball, doing CrossFit, and trying new food spots around Austin.
-
-[See my resume →](resume.qmd){.btn .btn-primary}
+:::
 
 :::
+
+::: {.home-section}
+
+::: {.section-head}
+[Selected work]{.section-kicker}
+
+## Recent projects {#recent-heading}
+
+[See all projects →](projects.qmd){.section-link}
+:::
+
+::: {#recent-projects}
+:::
+
+:::
+
+```{=html}
+<section class="cta">
+  <h2>Let's connect</h2>
+  <p>I'm always happy to talk analytics, sports, or anything data.</p>
+  <a class="btn btn-light-cta" href="mailto:jposner@utexas.edu">Get in touch</a>
+</section>
+```
