@@ -10,7 +10,7 @@ categories:
   - Streamlit
 ---
 
-[Try the live demo](https://tonight-sorted.streamlit.app){.btn .btn-primary target="_blank"}
+[Try the live demo](https://tonight-sorted-recommender.streamlit.app/){.btn .btn-primary target="_blank"}
 [View the code on GitHub](https://github.com/Jposner33/tonight-sorted){.btn .btn-outline-primary target="_blank"}
 
 ## Overview
