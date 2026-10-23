@@ -24,13 +24,13 @@ I’m a Master of Science in Business Analytics student at UT Austin’s McCombs
 
 ## About Me
 
+![](images/baseball.jpg){.about-photo fig-alt="Jacob Posner pitching for Macalester College"}
+
 I grew up in Los Angeles playing baseball and going to countless Dodgers games and UCLA sporting events. As much as I loved being at every game, what really hooked me was keeping score and the stats behind it. As I got older, that interest grew into the advanced analytics that drive decisions during games and in training, from how pitchers attack hitters to how players develop.
 
 That passion stayed with me through college at Macalester, where I got to apply it both in the classroom as a statistics major and on the field as a pitcher. Seeing analytics from both sides, studying the methods and living the results on the mound, shaped how I think about data.
 
 After graduating, I worked at Aon in Minneapolis, where I got my first real experience using data and models to support business decisions. Now I’m in Austin pursuing my Master of Science in Business Analytics at UT, and working at Basal Strength, where I get to bring analytics back to sports and performance.
-
-![](images/baseball.jpg){.about-photo fig-alt="Jacob Posner pitching for Macalester College"}
 
 ## What I'm Interested In
 
