@@ -1,0 +1,127 @@
+/*-- scss:defaults --*/
+$body-bg: #FBFAF7;
+$body-color: #1F2933;
+$primary: #BF5700;
+$secondary: #52606D;
+$link-color: #BF5700;
+$font-family-sans-serif: "Inter", system-ui, -apple-system, sans-serif;
+$headings-font-family: "Fraunces", Georgia, serif;
+$headings-font-weight: 600;
+$font-size-root: 17px;
+$navbar-bg: #FBFAF7;
+$navbar-fg: #1F2933;
+$navbar-hl: #BF5700;
+$footer-bg: #F3F0EA;
+$footer-fg: #52606D;
+$border-radius: 0.6rem;
+
+/*-- scss:rules --*/
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap');
+
+body { line-height: 1.7; letter-spacing: -0.005em; }
+
+// Navbar
+.navbar {
+  border-bottom: 1px solid rgba(31,41,51,0.08);
+  padding-top: 0.6rem; padding-bottom: 0.6rem;
+}
+.navbar-title {
+  font-family: "Fraunces", Georgia, serif;
+  font-weight: 700; font-size: 1.35rem; letter-spacing: -0.01em;
+}
+.navbar .nav-link {
+  font-weight: 500; font-size: 0.95rem;
+  position: relative;
+}
+.navbar .nav-link.active { color: $primary !important; }
+.navbar .nav-link.active::after {
+  content: ""; position: absolute; left: 0.5rem; right: 0.5rem; bottom: 0.1rem;
+  height: 2px; background: $primary; border-radius: 2px;
+}
+
+// Headings
+h1, h2, h3 { letter-spacing: -0.015em; }
+h2 {
+  font-size: 1.45rem; margin-top: 2.4rem; padding-bottom: 0.4rem;
+  border-bottom: none;
+  position: relative;
+}
+h2::after {
+  content: ""; display: block; width: 2.5rem; height: 3px;
+  background: $primary; border-radius: 2px; margin-top: 0.5rem;
+}
+
+// Home / about page
+.quarto-about-trestles .about-entity .about-image {
+  border-radius: 50% !important;
+  border: 4px solid #fff;
+  box-shadow: 0 10px 30px rgba(31,41,51,0.15);
+}
+.quarto-about-trestles .about-entity h1.title,
+.quarto-about-trestles .about-entity .title {
+  font-size: 2.6rem;
+}
+.about-links .about-link {
+  border-radius: 999px !important;
+  border: 1px solid rgba(191,87,0,0.35) !important;
+  color: $primary !important;
+  font-weight: 500;
+  transition: background 0.2s, color 0.2s;
+}
+.about-links .about-link:hover {
+  background: $primary !important; color: #fff !important;
+}
+.lead-intro p { font-size: 1.12rem; color: #3E4C59; }
+.entry { margin-bottom: 1.1rem; }
+.entry .entry-head { display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
+.entry .entry-org { font-weight: 600; color: #1F2933; }
+.entry .entry-meta { color: #7B8794; font-size: 0.9rem; }
+.entry .entry-role { color: $primary; font-weight: 500; font-size: 0.95rem; }
+.entry p { margin: 0.15rem 0 0; font-size: 0.97rem; color: #3E4C59; }
+.skill-pills { display: flex; flex-wrap: wrap; gap: 0.45rem; }
+.skill-pills span { background: #fff; border: 1px solid rgba(31,41,51,0.12); border-radius: 999px; padding: 0.2rem 0.75rem; font-size: 0.88rem; }
+
+// Title banners on listing pages
+.quarto-title-banner {
+  background: linear-gradient(135deg, #1F2933 0%, #33404D 60%, #7A3A0A 100%) !important;
+  color: #fff;
+  padding-top: 3rem !important; padding-bottom: 3rem !important;
+}
+.quarto-title-banner .title { font-size: 2.6rem; color: #fff; }
+
+// Project cards
+.quarto-grid-item.card {
+  border: 1px solid rgba(31,41,51,0.08);
+  border-radius: 0.9rem; overflow: hidden;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(31,41,51,0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.quarto-grid-item.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 32px rgba(31,41,51,0.12);
+}
+.quarto-grid-item .card-title { font-family: "Fraunces", Georgia, serif; font-weight: 600; }
+.listing-categories .listing-category,
+.quarto-category {
+  background: rgba(191,87,0,0.08); color: $primary;
+  border: none !important; border-radius: 999px;
+  font-size: 0.75rem; font-weight: 500; padding: 0.15rem 0.6rem;
+}
+
+// Posts list
+.quarto-post { border-bottom: 1px solid rgba(31,41,51,0.08); padding-bottom: 1.2rem; }
+.quarto-post .listing-title { font-family: "Fraunces", Georgia, serif; font-weight: 600; }
+
+// Buttons
+.btn-primary { border-radius: 999px; padding: 0.5rem 1.3rem; font-weight: 500; }
+
+// Footer
+.nav-footer { border-top: 1px solid rgba(31,41,51,0.08); font-size: 0.85rem; }
+
+// Phones
+@media (max-width: 600px) {
+  .quarto-about-trestles .about-entity .about-image { width: 180px !important; height: 180px !important; }
+  .quarto-about-trestles .about-entity .title { font-size: 2rem; }
+  .quarto-title-banner .title { font-size: 2rem; }
+}

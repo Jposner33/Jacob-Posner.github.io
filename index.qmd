@@ -16,30 +16,49 @@ about:
       href: mailto:jposner@utexas.edu
 ---
 
-:::{#intro-heading}
+::: {#intro-heading}
 
+::: {.lead-intro}
 I'm a Master of Science in Business Analytics student at UT Austin's McCombs School of Business, graduating in May 2027. I use statistics, modeling, and data tools to help organizations make better decisions, with a particular interest in sports analytics and sports science.
+:::
 
 ## Education
 
-The University of Texas at Austin, McCombs School of Business | Austin, TX <br>
-M.S. in Business Analytics | Expected May 2027
+::: {.entry}
+[[The University of Texas at Austin]{.entry-org} [Austin, TX]{.entry-meta}]{.entry-head}
+[M.S. in Business Analytics, McCombs School of Business · Expected May 2027]{.entry-role}
+:::
 
-Macalester College | St. Paul, MN <br>
-B.A. in Statistics | Varsity Baseball
+::: {.entry}
+[[Macalester College]{.entry-org} [St. Paul, MN]{.entry-meta}]{.entry-head}
+[B.A. in Statistics · Varsity Baseball]{.entry-role}
+:::
 
 ## Experience
 
-Basal Strength | Business Analyst Intern <br>
+::: {.entry}
+[[Basal Strength]{.entry-org} [Austin, TX]{.entry-meta}]{.entry-head}
+[Business Analyst Intern]{.entry-role}
+
 Built a streamlined pipeline to pull and clean customer data from the company API for client reports, cutting turnaround by days per customer.
+:::
 
-Aon | Catastrophe Modeling Analyst Trainee <br>
+::: {.entry}
+[[Aon]{.entry-org} [Minneapolis, MN]{.entry-meta}]{.entry-head}
+[Catastrophe Modeling Analyst Trainee]{.entry-role}
+
 Led the client renewal process on the reinsurance brokerage team and documented and optimized team workflows.
+:::
 
-Kipsu | Accounting Intern
+::: {.entry}
+[[Kipsu]{.entry-org}]{.entry-head}
+[Accounting Intern]{.entry-role}
+:::
 
 ## Skills
 
-R (tidyverse), Python (pandas), SQL, regression and Bayesian modeling, clustering, text analytics
+::: {.skill-pills}
+[R (tidyverse)]{} [Python (pandas)]{} [SQL]{} [Regression]{} [Bayesian modeling]{} [Clustering]{} [Text analytics]{}
+:::
 
 :::
