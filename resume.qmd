@@ -18,7 +18,7 @@ resources:
 
 ::: {.entry}
 [[Macalester College, St. Paul, MN]{.entry-org} [May 2025]{.entry-meta}]{.entry-head}
-[Bachelor of Arts in Statistics, GPA: 3.79/4.0]{.entry-role}
+[Bachelor of Arts in Statistics, GPA: 3.79 / 4.0]{.entry-role}
 
 - Honors: Cum Laude, Dean's List, and MIAC All-Academic (2023 - 2025)
 - Relevant Coursework: Bayesian Statistics, Causal Inference, Statistical Theory

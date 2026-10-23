@@ -21,13 +21,6 @@
     "text": "I’m especially drawn to sports analytics and sports science, and more broadly to analytics and modeling roles where I can turn messy data into clear recommendations.\nOutside of work and school, you’ll probably find me watching baseball.\nSee my resume →"
   },
   {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
-    "section": "",
-    "text": "A selection of analytics and data science projects. Click any project for details.\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\nNo matching items"
-  },
-  {
     "objectID": "resume.html",
     "href": "resume.html",
     "title": "Resume",
@@ -54,5 +47,12 @@
     "title": "Resume",
     "section": "Experience",
     "text": "Experience\n\nBasal Strength · Austin, TX Sept 2026 – Present Business Analytics Intern\n\nBuilding an internal R-based analytics pipeline to automate collection, storage, and analysis of performance-testing and body-composition data for a strength-training startup\nDeveloping an internal R Shiny dashboard to give leadership self-service visibility into client and rep-level performance metrics\n\n\n\nAon · Minneapolis, MN June 2025 – April 2026 Catastrophe Modeling Analyst\n\nSupported exposure data and model output preparation for four concurrent client teams, ensuring accurate, on-time submissions for reinsurance renewals\nExecuted catastrophe models across five perils using RMS, Verisk, and AIR platforms, synthesizing outputs into client-ready summaries that informed multi-million-dollar risk transfer and reinsurance placement decisions\nBuilt client-specific process documentation to streamline future renewal cycles and reduce onboarding time for team members picking up an account\n\n\n\nKipsu · Minneapolis, MN May 2024 – August 2024 Accounting Intern\n\nRecovered $400K+ across 200 properties by owning accounts receivable and debt collection, driven by 1,200+ targeted client calls and emails\nSpearheaded outreach to property managers by identifying AR trends and collection gaps, driving consistent improvement in monthly recovery rates\nCreated Excel reports to inform business strategy and meet collection goals"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "A selection of analytics and data science projects. Click any project for details.\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\nNo matching items"
   }
 ]
