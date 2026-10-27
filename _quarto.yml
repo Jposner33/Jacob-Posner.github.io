@@ -4,6 +4,11 @@ project:
 
 website:
   title: "Jacob Posner"
+  site-url: https://jposner33.github.io/jacob-posner.github.io/
+  description: "Jacob Posner – MS Business Analytics student at UT Austin. Projects in sports analytics, causal inference, optimization, and AI."
+  image: images/og-card.png
+  favicon: images/favicon.png
+  open-graph: true
   navbar:
     left:
       - href: index.qmd

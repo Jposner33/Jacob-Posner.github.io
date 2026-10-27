@@ -12,7 +12,7 @@ resources:
 [[The University of Texas at Austin, McCombs School of Business - Austin, TX]{.entry-org} [May 2027]{.entry-meta}]{.entry-head}
 [Master of Science in Business Analytics, GPA: 3.85 / 4]{.entry-role}
 
-- Relevant Coursework: Advanced Machine Learning, Optimization, Information Management, Financial Management, Unstructured Data, Data Science
+- Relevant Coursework: Advanced Machine Learning, Optimization, Information Management, Unstructured Data, Data Science
 - Student Ambassador for prospective and admitted students
 :::
 

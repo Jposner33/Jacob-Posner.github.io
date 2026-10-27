@@ -47,9 +47,9 @@ model.optimize()
 - **Re-optimizing every month didn't reliably help.** It lowered risk in some months and raised it in others, averaging only slightly better than the static portfolio.
 - **The monthly portfolios were unstable.** Every month-to-month change broke a 2-percentage-point stability limit, often with 20 or more stocks shifting at once, which would be hard to manage in practice.
 
-![](cvar_vs_index.png)
+![Daily CVaR at 95% for the optimized portfolio vs. the S&P 500, in-sample (2025) and out-of-sample (2026)](cvar_vs_index.png){fig-alt="Bar chart: optimized portfolio CVaR of 0.93% vs. 2.72% for the S&P 500 in 2025, and 1.17% vs. 1.77% in 2026"}
 
-![](stability.png)
+![Largest single-stock weight change between monthly re-optimizations, against a 2-percentage-point stability limit](stability.png){fig-alt="Bar chart: largest monthly weight change ranges from about 4 to 15 percentage points, exceeding the 2-point limit every month"}
 
 ## Recommendation
 

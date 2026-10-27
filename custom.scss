@@ -130,10 +130,6 @@ h2::after {
 .entry li { font-size: 0.95rem; color: #3E4C59; margin-bottom: 0.2rem; }
 .entry li::marker { color: $primary; }
 
-.entry ul { margin: 0.35rem 0 0; padding-left: 1.1rem; }
-.entry li { font-size: 0.95rem; color: #3E4C59; margin-bottom: 0.2rem; }
-.entry li::marker { color: $primary; }
-
 .resume-contact { color: #52606D; font-size: 0.95rem; margin: -0.5rem 0 1.2rem; }
 .resume-contact a { color: #52606D; text-decoration: none; }
 .resume-contact a:hover { color: $primary; }
@@ -225,3 +221,6 @@ main img { border-radius: 0.6rem; }
   .about-grid { grid-template-columns: 1fr; gap: 1rem; }
   .cta { margin-left: 1rem; margin-right: 1rem; }
 }
+
+// Keep project card images at their native 1200x640 shape so title text isn't cropped on phones
+.quarto-grid-item .card-img { height: auto !important; aspect-ratio: 1200 / 640; object-fit: cover; }

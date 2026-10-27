@@ -1,5 +1,6 @@
 ---
 pagetitle: "Jacob Posner"
+image: images/og-card.png
 page-layout: full
 listing:
   id: recent-projects
