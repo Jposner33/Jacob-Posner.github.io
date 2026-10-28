@@ -93,14 +93,45 @@ Outside of work and school, I enjoy playing, watching, and coaching baseball, do
 <section class="cta">
   <h2>Let's connect</h2>
   <p>I'm always happy to talk analytics, sports, or anything data.</p>
-  <a class="btn btn-light-cta" id="cta-email" href="mailto:jposner@utexas.edu">Get in touch</a>
-  <p class="cta-email-line">Email me at <a href="mailto:jposner@utexas.edu">jposner@utexas.edu</a> <span id="cta-copied" class="cta-copied" aria-live="polite"></span></p>
+  <a class="btn btn-light-cta" href="mailto:jposner@utexas.edu">Get in touch</a>
+  <p class="cta-email-line">Email me at <a href="mailto:jposner@utexas.edu">jposner@utexas.edu</a></p>
 </section>
+<div id="mail-menu" class="mail-menu" role="menu" hidden>
+  <a role="menuitem" target="_blank" rel="noopener" data-kind="gmail"><i class="bi bi-google"></i> Open in Gmail</a>
+  <a role="menuitem" target="_blank" rel="noopener" data-kind="outlook"><i class="bi bi-microsoft"></i> Open in Outlook</a>
+  <a role="menuitem" data-kind="app"><i class="bi bi-envelope"></i> Use my mail app</a>
+  <button type="button" role="menuitem" data-kind="copy"><i class="bi bi-clipboard"></i> <span>Copy email address</span></button>
+</div>
 <script>
-document.getElementById('cta-email').addEventListener('click', function () {
-  var email = 'jposner@utexas.edu', note = document.getElementById('cta-copied');
-  function done() { note.textContent = '✓ Copied to clipboard'; setTimeout(function () { note.textContent = ''; }, 3000); }
-  try { navigator.clipboard.writeText(email).then(done, function () {}); } catch (e) {}
-});
+(function () {
+  var email = 'jposner@utexas.edu', menu = document.getElementById('mail-menu');
+  document.body.appendChild(menu);
+  menu.querySelector('[data-kind=gmail]').href = 'https://mail.google.com/mail/?view=cm&fs=1&to=' + email;
+  menu.querySelector('[data-kind=outlook]').href = 'https://outlook.office.com/mail/deeplink/compose?to=' + email;
+  menu.querySelector('[data-kind=app]').href = 'mailto:' + email;
+  var copyBtn = menu.querySelector('[data-kind=copy]'), copyLabel = copyBtn.querySelector('span');
+  function close() { menu.hidden = true; copyLabel.textContent = 'Copy email address'; }
+  function copied() { copyLabel.textContent = '✓ Copied!'; setTimeout(close, 1200); }
+  copyBtn.addEventListener('click', function (e) {
+    e.stopPropagation();
+    try { navigator.clipboard.writeText(email).then(copied, fallback); } catch (err) { fallback(); }
+    function fallback() { var t = document.createElement('textarea'); t.value = email; document.body.appendChild(t); t.select();
+      try { document.execCommand('copy'); copied(); } catch (x) { copyLabel.textContent = email; } t.remove(); }
+  });
+  menu.querySelectorAll('a').forEach(function (a) { a.addEventListener('click', function () { setTimeout(close, 100); }); });
+  document.querySelectorAll('a[href^="mailto:"]').forEach(function (link) {
+    if (menu.contains(link)) return;
+    link.addEventListener('click', function (e) {
+      e.preventDefault(); e.stopPropagation();
+      var r = link.getBoundingClientRect();
+      menu.hidden = false;
+      var w = menu.offsetWidth, left = r.left + r.width / 2 - w / 2 + window.scrollX;
+      left = Math.max(window.scrollX + 12, Math.min(left, window.scrollX + document.documentElement.clientWidth - w - 12));
+      menu.style.left = left + 'px'; menu.style.top = (r.bottom + window.scrollY + 8) + 'px';
+    });
+  });
+  document.addEventListener('click', function (e) { if (!menu.contains(e.target)) close(); });
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape') close(); });
+})();
 </script>
 ```

@@ -212,7 +212,17 @@ main img { border-radius: 0.6rem; }
 .btn-light-cta:hover { background: #F5B27A; color: #1F2933; }
 .cta .cta-email-line { margin: 1.1rem 0 0; font-size: 0.95rem; color: #D9E2EC; }
 .cta .cta-email-line a { color: #fff; font-weight: 600; text-decoration: underline; text-underline-offset: 3px; }
-.cta-copied { color: #F5B27A; font-weight: 600; margin-left: 0.4rem; }
+.mail-menu {
+  position: absolute; z-index: 2000; min-width: 220px; padding: 0.4rem; background: #fff;
+  border: 1px solid #E4E7EB; border-radius: 0.8rem; box-shadow: 0 12px 32px rgba(31,41,51,0.18);
+}
+.mail-menu[hidden] { display: none; }
+.mail-menu a, .mail-menu button {
+  display: flex; align-items: center; gap: 0.6rem; width: 100%; padding: 0.55rem 0.8rem; border: 0; background: none;
+  border-radius: 0.5rem; color: #1F2933 !important; font: inherit; font-size: 0.95rem; text-align: left; text-decoration: none !important; cursor: pointer;
+}
+.mail-menu a:hover, .mail-menu button:hover { background: rgba(191,87,0,0.09); }
+.mail-menu i { color: $primary; width: 1rem; }
 
 @media (max-width: 900px) {
   .hero { grid-template-columns: 1fr; gap: 2.5rem; padding-top: 2.5rem; }
