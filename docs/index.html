@@ -48,7 +48,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-1dba9e8b802acd2d06d8f40e35f603e8.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-3be6b363d06da6e7aa44e88053c54b2e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -261,7 +261,7 @@ window.Quarto = {
 </div>
 <div id="listing-recent-projects" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="UHl0aG9uJTJDTExNcyUyQ1JBRyUyQ1N0cmVhbWxpdA==" data-listing-date-sort="1792299600000" data-listing-file-modified-sort="1793069293108" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="322">
+<div class="g-col-1" data-index="0" data-categories="UHl0aG9uJTJDTExNcyUyQ1JBRyUyQ1N0cmVhbWxpdA==" data-listing-date-sort="1792299600000" data-listing-file-modified-sort="1793155673854" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="322">
 <a href="./projects/tonight-sorted/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -288,7 +288,7 @@ Tonight, Sorted
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="UHl0aG9uJTJDT3B0aW1pemF0aW9uJTJDTGluZWFyJTIwUHJvZ3JhbW1pbmclMkNHdXJvYmk=" data-listing-date-sort="1790830800000" data-listing-file-modified-sort="1793069412752" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="612">
+<div class="g-col-1" data-index="1" data-categories="UHl0aG9uJTJDT3B0aW1pemF0aW9uJTJDTGluZWFyJTIwUHJvZ3JhbW1pbmclMkNHdXJvYmk=" data-listing-date-sort="1790830800000" data-listing-file-modified-sort="1793155673846" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="612">
 <a href="./projects/cvar-optimization/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -315,7 +315,7 @@ Optimizing Under Risk with CVaR
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="UiUyQ0NhdXNhbCUyMEluZmVyZW5jZSUyQ1Nwb3J0cyUyMEFuYWx5dGljcw==" data-listing-date-sort="1734156000000" data-listing-file-modified-sort="1793069293104" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="272">
+<div class="g-col-1" data-index="2" data-categories="UiUyQ0NhdXNhbCUyMEluZmVyZW5jZSUyQ1Nwb3J0cyUyMEFuYWx5dGljcw==" data-listing-date-sort="1734156000000" data-listing-file-modified-sort="1793155673853" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="272">
 <a href="./projects/home-field-advantage/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -347,8 +347,16 @@ The Reality of Home Field Advantage
 <section class="cta">
   <h2 class="anchored">Let's connect</h2>
   <p>I'm always happy to talk analytics, sports, or anything data.</p>
-  <a class="btn btn-light-cta" href="mailto:jposner@utexas.edu">Get in touch</a>
+  <a class="btn btn-light-cta" id="cta-email" href="mailto:jposner@utexas.edu">Get in touch</a>
+  <p class="cta-email-line">Email me at <a href="mailto:jposner@utexas.edu">jposner@utexas.edu</a> <span id="cta-copied" class="cta-copied" aria-live="polite"></span></p>
 </section>
+<script>
+document.getElementById('cta-email').addEventListener('click', function () {
+  var email = 'jposner@utexas.edu', note = document.getElementById('cta-copied');
+  function done() { note.textContent = '✓ Copied to clipboard'; setTimeout(function () { note.textContent = ''; }, 3000); }
+  try { navigator.clipboard.writeText(email).then(done, function () {}); } catch (e) {}
+});
+</script>
 
 
 

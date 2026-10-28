@@ -93,6 +93,14 @@ Outside of work and school, I enjoy playing, watching, and coaching baseball, do
 <section class="cta">
   <h2>Let's connect</h2>
   <p>I'm always happy to talk analytics, sports, or anything data.</p>
-  <a class="btn btn-light-cta" href="mailto:jposner@utexas.edu">Get in touch</a>
+  <a class="btn btn-light-cta" id="cta-email" href="mailto:jposner@utexas.edu">Get in touch</a>
+  <p class="cta-email-line">Email me at <a href="mailto:jposner@utexas.edu">jposner@utexas.edu</a> <span id="cta-copied" class="cta-copied" aria-live="polite"></span></p>
 </section>
+<script>
+document.getElementById('cta-email').addEventListener('click', function () {
+  var email = 'jposner@utexas.edu', note = document.getElementById('cta-copied');
+  function done() { note.textContent = '✓ Copied to clipboard'; setTimeout(function () { note.textContent = ''; }, 3000); }
+  try { navigator.clipboard.writeText(email).then(done, function () {}); } catch (e) {}
+});
+</script>
 ```

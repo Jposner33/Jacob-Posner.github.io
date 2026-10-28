@@ -210,6 +210,9 @@ main img { border-radius: 0.6rem; }
 .cta p { color: #D9E2EC; font-size: 1.08rem; margin-bottom: 1.6rem; }
 .btn-light-cta { background: #fff; color: #1F2933; border-radius: 999px; padding: 0.75rem 1.8rem; font-weight: 600; }
 .btn-light-cta:hover { background: #F5B27A; color: #1F2933; }
+.cta .cta-email-line { margin: 1.1rem 0 0; font-size: 0.95rem; color: #D9E2EC; }
+.cta .cta-email-line a { color: #fff; font-weight: 600; text-decoration: underline; text-underline-offset: 3px; }
+.cta-copied { color: #F5B27A; font-weight: 600; margin-left: 0.4rem; }
 
 @media (max-width: 900px) {
   .hero { grid-template-columns: 1fr; gap: 2.5rem; padding-top: 2.5rem; }
