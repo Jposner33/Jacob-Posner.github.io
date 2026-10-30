@@ -3,6 +3,7 @@ title: "Strength-Testing Data Pipeline & App"
 description: "An R pipeline and Shiny app at Basal Strength that pulls force-plate and dynamometer results from the testing vendor's API, validates every value, and turns them into client-ready exports."
 date: "2026-10-29"
 image: featured.png
+lightbox: auto
 categories:
   - R
   - Shiny
@@ -43,7 +44,23 @@ The app puts the pipeline behind a simple interface, with tabs for:
 - **Hub comparison** against the vendor's own dashboard values
 - **Files** to download the exports
 
-It also has a demo mode that runs on mock data, so it can be shown without exposing any client information.
+It also has a demo mode that runs on mock data, so it can be shown without exposing any client information. The screenshots below come from that mode.
+
+::: {.panel-tabset}
+
+## Overview
+
+![A pull at a glance: test counts, flagged trials, and the result of every data check, followed by each test in the session](app-overview.png){fig-alt="Shiny app Overview tab showing summary cards (9 force plate tests, 23 trials, 1 dynamometer test, 5 flagged trials, 12 checks passed) above a table of tests by date, time, test type and device"}
+
+## Checks
+
+![Every pull runs the same checks. "Stop" means fix before using the data, and "Look" means worth a glance.](app-checks.png){fig-alt="Shiny app Checks tab listing data checks with Pass, Look or Info status, the number of rows affected, and a plain-language explanation of each"}
+
+## Repeatability
+
+![How consistent the trials are within each test, with flagged trials counted separately](app-repeatability.png){fig-alt="Shiny app Repeatability tab showing a table of test type, date, time, leg, metric, limb, unit, number of values and number of flagged trials"}
+
+:::
 
 ## Validating Against the Source
 

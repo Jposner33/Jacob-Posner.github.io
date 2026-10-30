@@ -49,6 +49,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap-902347b7fec734bd98e9850cfc16869b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -198,7 +201,7 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="how-it-works">How It Works</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="pipeline.png" class="img-fluid figure-img" alt="Four-step diagram: pull test data from the testing vendor's API, process it offline in R, validate it with automated checks, and deliver it through a Shiny app and exports"></p>
+<p><a href="pipeline.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Simplified overview of the pipeline from the testing vendor’s API to the Shiny app and exports"><img src="pipeline.png" class="img-fluid figure-img" alt="Four-step diagram: pull test data from the testing vendor's API, process it offline in R, validate it with automated checks, and deliver it through a Shiny app and exports"></a></p>
 <figcaption>Simplified overview of the pipeline from the testing vendor’s API to the Shiny app and exports</figcaption>
 </figure>
 </div>
@@ -218,7 +221,36 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>Hub comparison</strong> against the vendor’s own dashboard values</li>
 <li><strong>Files</strong> to download the exports</li>
 </ul>
-<p>It also has a demo mode that runs on mock data, so it can be shown without exposing any client information.</p>
+<p>It also has a demo mode that runs on mock data, so it can be shown without exposing any client information. The screenshots below come from that mode.</p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">Overview</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Checks</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">Repeatability</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="app-overview.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="A pull at a glance: test counts, flagged trials, and the result of every data check, followed by each test in the session"><img src="app-overview.png" class="img-fluid figure-img" alt="Shiny app Overview tab showing summary cards (9 force plate tests, 23 trials, 1 dynamometer test, 5 flagged trials, 12 checks passed) above a table of tests by date, time, test type and device"></a></p>
+<figcaption>A pull at a glance: test counts, flagged trials, and the result of every data check, followed by each test in the session</figcaption>
+</figure>
+</div>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="app-checks.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Every pull runs the same checks. “Stop” means fix before using the data, and “Look” means worth a glance."><img src="app-checks.png" class="img-fluid figure-img" alt="Shiny app Checks tab listing data checks with Pass, Look or Info status, the number of rows affected, and a plain-language explanation of each"></a></p>
+<figcaption>Every pull runs the same checks. “Stop” means fix before using the data, and “Look” means worth a glance.</figcaption>
+</figure>
+</div>
+</div>
+<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="app-repeatability.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="How consistent the trials are within each test, with flagged trials counted separately"><img src="app-repeatability.png" class="img-fluid figure-img" alt="Shiny app Repeatability tab showing a table of test type, date, time, leg, metric, limb, unit, number of values and number of flagged trials"></a></p>
+<figcaption>How consistent the trials are within each test, with flagged trials counted separately</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
 </section>
 <section id="validating-against-the-source" class="level2">
 <h2 class="anchored" data-anchor-id="validating-against-the-source">Validating Against the Source</h2>
@@ -660,6 +692,38 @@ ul.task-list li input[type="checkbox"] {
 </div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 

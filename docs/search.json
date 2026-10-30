@@ -116,7 +116,7 @@
     "href": "projects/basal-strength-analytics/index.html#the-shiny-app",
     "title": "Strength-Testing Data Pipeline & App",
     "section": "The Shiny App",
-    "text": "The Shiny App\nThe app puts the pipeline behind a simple interface, with tabs for:\n\nOverview of the pull\nChecks, showing the result of every data check\nSummary of each test, with and without flagged trials\nRepeatability across trials\nHub comparison against the vendor’s own dashboard values\nFiles to download the exports\n\nIt also has a demo mode that runs on mock data, so it can be shown without exposing any client information."
+    "text": "The Shiny App\nThe app puts the pipeline behind a simple interface, with tabs for:\n\nOverview of the pull\nChecks, showing the result of every data check\nSummary of each test, with and without flagged trials\nRepeatability across trials\nHub comparison against the vendor’s own dashboard values\nFiles to download the exports\n\nIt also has a demo mode that runs on mock data, so it can be shown without exposing any client information. The screenshots below come from that mode.\n\nOverviewChecksRepeatability\n\n\n\n\n\nA pull at a glance: test counts, flagged trials, and the result of every data check, followed by each test in the session\n\n\n\n\n\n\n\nEvery pull runs the same checks. “Stop” means fix before using the data, and “Look” means worth a glance.\n\n\n\n\n\n\n\nHow consistent the trials are within each test, with flagged trials counted separately"
   },
   {
     "objectID": "projects/basal-strength-analytics/index.html#validating-against-the-source",
