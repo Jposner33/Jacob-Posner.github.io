@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/projects/basal-strength-analytics/index.html",
       "/projects/tonight-sorted/index.html",
       "/projects/cvar-optimization/index.html",
       "/projects/home-field-advantage/index.html",
@@ -12,6 +13,7 @@
   {
     "listing": "/projects.html",
     "items": [
+      "/projects/basal-strength-analytics/index.html",
       "/projects/tonight-sorted/index.html",
       "/projects/cvar-optimization/index.html",
       "/projects/home-field-advantage/index.html",

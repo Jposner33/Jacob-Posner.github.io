@@ -25,7 +25,7 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "A selection of my analytics and data science work, from agentic AI to causal inference and Bayesian modeling. Click any project for details.\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nTonight, Sorted\n\n\n\nPython\n\nLLMs\n\nRAG\n\nStreamlit\n\n\n\nAn agentic AI recommender that turns a plain-English plan into three real, nearby places, with a transparent explanation of why each one fits.\n\n\n\n\n\n\nOct 18, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nOptimizing Under Risk with CVaR\n\n\n\nPython\n\nOptimization\n\nLinear Programming\n\nGurobi\n\n\n\nA linear programming model in Gurobi that builds a 496-stock portfolio minimizing tail risk, tested out-of-sample against the S&P 500.\n\n\n\n\n\n\nOct 1, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Reality of Home Field Advantage\n\n\n\nR\n\nCausal Inference\n\nSports Analytics\n\n\n\nA causal inference study estimating how much playing at home actually changes win rates for each of the 30 MLB teams.\n\n\n\n\n\n\nDec 14, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Impact of the ACA on Healthcare Access in Minnesota\n\n\n\nR\n\nShiny\n\nData Visualization\n\nHealthcare\n\n\n\nA county-level analysis of how the Affordable Care Act changed insurance coverage and health outcomes across Minnesota, with an interactive R Shiny app.\n\n\n\n\n\n\nDec 13, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nHealth Equity Through Breast Cancer Patient Data\n\n\n\nR\n\nBayesian Modeling\n\nHealthcare\n\n\n\nA Bayesian analysis of which patient, insurance, and geographic factors predict whether breast cancer is diagnosed within 90 days of a first hospital visit.\n\n\n\n\n\n\nMay 2, 2024\n\n\n\n\n\n\nNo matching items"
+    "text": "A selection of my analytics and data science work, from agentic AI to causal inference and Bayesian modeling. Click any project for details.\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nStrength-Testing Data Pipeline & App\n\n\n\nR\n\nShiny\n\nAPIs\n\nData Validation\n\n\n\nAn R pipeline and Shiny app at Basal Strength that pulls force-plate and dynamometer results from the VALD API, validates every value, and turns them into client-ready…\n\n\n\n\n\n\nOct 29, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nTonight, Sorted\n\n\n\nPython\n\nLLMs\n\nRAG\n\nStreamlit\n\n\n\nAn agentic AI recommender that turns a plain-English plan into three real, nearby places, with a transparent explanation of why each one fits.\n\n\n\n\n\n\nOct 18, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nOptimizing Under Risk with CVaR\n\n\n\nPython\n\nOptimization\n\nLinear Programming\n\nGurobi\n\n\n\nA linear programming model in Gurobi that builds a 496-stock portfolio minimizing tail risk, tested out-of-sample against the S&P 500.\n\n\n\n\n\n\nOct 1, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Reality of Home Field Advantage\n\n\n\nR\n\nCausal Inference\n\nSports Analytics\n\n\n\nA causal inference study estimating how much playing at home actually changes win rates for each of the 30 MLB teams.\n\n\n\n\n\n\nDec 14, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Impact of the ACA on Healthcare Access in Minnesota\n\n\n\nR\n\nShiny\n\nData Visualization\n\nHealthcare\n\n\n\nA county-level analysis of how the Affordable Care Act changed insurance coverage and health outcomes across Minnesota, with an interactive R Shiny app.\n\n\n\n\n\n\nDec 13, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nHealth Equity Through Breast Cancer Patient Data\n\n\n\nR\n\nBayesian Modeling\n\nHealthcare\n\n\n\nA Bayesian analysis of which patient, insurance, and geographic factors predict whether breast cancer is diagnosed within 90 days of a first hospital visit.\n\n\n\n\n\n\nMay 2, 2024\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects/cvar-optimization/index.html",
@@ -89,6 +89,55 @@
     "title": "Tonight, Sorted",
     "section": "Design Principle",
     "text": "Design Principle\nLLMs interpret and explain, while Python does all of the arithmetic. When a signal is missing, such as a venue with no website, it is dropped and the remaining weights are re-normalized instead of being filled with a made-up value. This keeps the rankings transparent and reproducible."
+  },
+  {
+    "objectID": "projects/basal-strength-analytics/index.html",
+    "href": "projects/basal-strength-analytics/index.html",
+    "title": "Strength-Testing Data Pipeline & App",
+    "section": "",
+    "text": "This is internal work for Basal Strength, so the code and data are private. Everything on this page is de-identified: no client names, IDs, or results are shown."
+  },
+  {
+    "objectID": "projects/basal-strength-analytics/index.html#overview",
+    "href": "projects/basal-strength-analytics/index.html#overview",
+    "title": "Strength-Testing Data Pipeline & App",
+    "section": "Overview",
+    "text": "Overview\nBasal Strength is an Austin startup that runs in-depth strength assessments, using VALD ForceDecks force plates and DynaMo handheld dynamometers to measure things like jump performance, isometric strength, balance, and left/right asymmetry.\nThe vendor’s web dashboard shows results one client at a time, but getting that data into a usable form for reports and analysis meant a lot of manual work. As a business analytics intern, I built the system that does it automatically: an R pipeline that pulls a client’s testing data from the VALD API, cleans and checks it, and exports it, plus a Shiny app that wraps the whole process."
+  },
+  {
+    "objectID": "projects/basal-strength-analytics/index.html#how-it-works",
+    "href": "projects/basal-strength-analytics/index.html#how-it-works",
+    "title": "Strength-Testing Data Pipeline & App",
+    "section": "How It Works",
+    "text": "How It Works\n\n\n\nSimplified overview of the pipeline from the VALD API to the Shiny app and exports\n\n\n1. Pull and save. For one client and date range, the pipeline requests every test and trial from the API, reading every page of results, and saves each raw response unchanged in a time-stamped folder. A manifest records exactly what was pulled, including a fingerprint of the vendor’s 530 metric definitions so any change to them gets flagged.\n2. Process offline. A separate step cleans and joins the data without calling the API again. It converts raw base-unit values into the units the vendor’s dashboard displays, attaches test setup details such as box height and bar load, and works out which leg was tested when the API doesn’t say.\n3. Validate. Every run goes through more than 15 automated data checks, covering missing values, duplicates, rep counts, leg labels, and units. It also flags trials that look like non-attempts, such as a rep under 60% of the athlete’s best.\n4. Deliver. Results are exported as CSV and a readable Excel workbook with a summary tab and one tab per test."
+  },
+  {
+    "objectID": "projects/basal-strength-analytics/index.html#the-shiny-app",
+    "href": "projects/basal-strength-analytics/index.html#the-shiny-app",
+    "title": "Strength-Testing Data Pipeline & App",
+    "section": "The Shiny App",
+    "text": "The Shiny App\nThe app puts the pipeline behind a simple interface, with tabs for:\n\nOverview of the pull\nChecks, showing the result of every data check\nSummary of each test, with and without flagged trials\nRepeatability across trials\nHub comparison against the vendor’s own dashboard values\nFiles to download the exports\n\nIt also has a demo mode that runs on mock data, so it can be shown without exposing any client information."
+  },
+  {
+    "objectID": "projects/basal-strength-analytics/index.html#validating-against-the-source",
+    "href": "projects/basal-strength-analytics/index.html#validating-against-the-source",
+    "title": "Strength-Testing Data Pipeline & App",
+    "section": "Validating Against the Source",
+    "text": "Validating Against the Source\nI didn’t want to trust the pipeline just because it ran. Across five client pulls, I checked every exported test against the values in VALD’s own dashboard, and they matched. The process also turned up several things the dashboard doesn’t make obvious:\n\nUnit labels can be misleading. The API returns base units, and the displayed value depends on a per-metric scale factor. Using those factors removed every hand conversion.\nSmall accidental contacts count as reps. On the dynamometer, a light touch is recorded as a rep and pulled into averages unless it’s flagged.\nBody weight isn’t always body weight. Some tests record only part of the athlete’s weight, which distorts any metric normalized by body mass. Using the same session’s jump-test weight fixes it.\nAverages can hide big swings. One jump’s landing-force asymmetry averaged near zero even though individual trials swung more than 30% to each side."
+  },
+  {
+    "objectID": "projects/basal-strength-analytics/index.html#privacy-by-design",
+    "href": "projects/basal-strength-analytics/index.html#privacy-by-design",
+    "title": "Strength-Testing Data Pipeline & App",
+    "section": "Privacy by Design",
+    "text": "Privacy by Design\nClient data never leaves the work laptop. The data folder is excluded from version control, so the repository holds code only, and exports label clients by session date rather than by name."
+  },
+  {
+    "objectID": "projects/basal-strength-analytics/index.html#impact",
+    "href": "projects/basal-strength-analytics/index.html#impact",
+    "title": "Strength-Testing Data Pipeline & App",
+    "section": "Impact",
+    "text": "Impact\n\nDays saved per client. Report prep went from manually pulling and cleaning each client’s data to a repeatable, scripted process.\nData people can trust. Every number is checked against the source before anyone uses it.\nA foundation for analysis. Clean, consistent testing histories set up next steps like trial-to-trial reliability and correlations between metrics."
   },
   {
     "objectID": "projects/aca-minnesota/index.html",
