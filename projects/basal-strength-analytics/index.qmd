@@ -1,6 +1,6 @@
 ---
 title: "Strength-Testing Data Pipeline & App"
-description: "An R pipeline and Shiny app at Basal Strength that pulls force-plate and dynamometer results from the VALD API, validates every value, and turns them into client-ready exports."
+description: "An R pipeline and Shiny app at Basal Strength that pulls force-plate and dynamometer results from the testing vendor's API, validates every value, and turns them into client-ready exports."
 date: "2026-10-29"
 image: featured.png
 categories:
@@ -16,13 +16,13 @@ This is internal work for Basal Strength, so the code and data are private. Ever
 
 ## Overview
 
-Basal Strength is an Austin startup that runs in-depth strength assessments, using VALD ForceDecks force plates and DynaMo handheld dynamometers to measure things like jump performance, isometric strength, balance, and left/right asymmetry.
+Basal Strength is an Austin startup that runs in-depth strength assessments, using force plates and handheld dynamometers to measure things like jump performance, isometric strength, balance, and left/right asymmetry.
 
-The vendor's web dashboard shows results one client at a time, but getting that data into a usable form for reports and analysis meant a lot of manual work. As a business analytics intern, I built the system that does it automatically: an R pipeline that pulls a client's testing data from the VALD API, cleans and checks it, and exports it, plus a Shiny app that wraps the whole process.
+The vendor's web dashboard shows results one client at a time, but getting that data into a usable form for reports and analysis meant a lot of manual work. As a business analytics intern, I built the system that does it automatically: an R pipeline that pulls a client's testing data from the testing vendor's API, cleans and checks it, and exports it, plus a Shiny app that wraps the whole process.
 
 ## How It Works
 
-![Simplified overview of the pipeline from the VALD API to the Shiny app and exports](pipeline.png){fig-alt="Four-step diagram: pull test data from the VALD API, process it offline in R, validate it with automated checks, and deliver it through a Shiny app and exports"}
+![Simplified overview of the pipeline from the testing vendor's API to the Shiny app and exports](pipeline.png){fig-alt="Four-step diagram: pull test data from the testing vendor's API, process it offline in R, validate it with automated checks, and deliver it through a Shiny app and exports"}
 
 **1. Pull and save.** For one client and date range, the pipeline requests every test and trial from the API, reading every page of results, and saves each raw response unchanged in a time-stamped folder. A manifest records exactly what was pulled, including a fingerprint of the vendor's 530 metric definitions so any change to them gets flagged.
 
@@ -47,7 +47,7 @@ It also has a demo mode that runs on mock data, so it can be shown without expos
 
 ## Validating Against the Source
 
-I didn't want to trust the pipeline just because it ran. Across five client pulls, I checked every exported test against the values in VALD's own dashboard, and they matched. The process also turned up several things the dashboard doesn't make obvious:
+I didn't want to trust the pipeline just because it ran. Across five client pulls, I checked every exported test against the values in the vendor's own dashboard, and they matched. The process also turned up several things the dashboard doesn't make obvious:
 
 - **Unit labels can be misleading.** The API returns base units, and the displayed value depends on a per-metric scale factor. Using those factors removed every hand conversion.
 - **Small accidental contacts count as reps.** On the dynamometer, a light touch is recorded as a rep and pulled into averages unless it's flagged.
