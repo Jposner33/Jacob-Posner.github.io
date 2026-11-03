@@ -42,20 +42,20 @@ The app puts the pipeline behind a simple interface, with tabs for:
 - **Summary** of each test, with and without flagged trials
 - **Repeatability** across trials
 - **Hub comparison** against the vendor's own dashboard values
-- **Force curves**, the raw force signal behind every test (new)
+- **Force curves**, the raw force signal behind every test
 - **Files** to download the exports
 
 It also has a demo mode that runs on mock data, so it can be shown without exposing any client information. The screenshots below come from that mode.
 
-### New: Force Curves
+### Seeing the Force Curves
 
-The summary metrics are just a few numbers taken from a much richer signal: the force on each plate, recorded hundreds of times a second (500 Hz for jumps, 200 Hz for balance). The newest tab pulls that raw signal from the API and plots it, so you can see *how* each trial happened, not just the result.
+Every summary metric is a few numbers pulled from a much richer signal: the force on each plate, recorded hundreds of times a second. The app also plots that full signal, which shows *how* each trial happened, not just the result.
 
-- **Every trial in context.** Each trial is shaded and numbered on the recording, with flagged trials in red, and the trial's standard metrics sit in a table right below the curve.
-- **Left vs. right.** Each plate gets its own line, which makes asymmetries visible. For single-leg balance, it shows only the leg in use so the sway isn't flattened by a zero line.
-- **Derived jump metrics.** For jumps, the app works out acceleration, velocity, power and displacement from force, trial by trial, using the athlete's same-day body weight.
-- **Verified against the source.** On a real jump test, peak landing force from the curve matched the vendor's total, left and right values on every trial.
-- **Exports.** The plot, the curve as a CSV, or every curve in a pull as a zip.
+- **Catch bad trials.** A stumble, a double bounce or a false start can still produce believable numbers. On the curve it's obvious right away, so a bad trial gets caught before it skews a client's results.
+- **Explain the numbers.** When a metric looks off, the curve shows why, like a slow countermovement or a hard landing. That makes the results easier to trust and easier to explain to a client.
+- **See asymmetries as they happen.** Separate left and right lines show where in the movement one side does more work, not just a single asymmetry percentage at the end.
+- **Get more out of every test.** Velocity, power and displacement can be worked out from force for each jump, using the athlete's same-day body weight, without any extra testing.
+- **Confirm the data is right.** Peak landing force taken from the curve matched the vendor's total, left and right values on every trial of a real jump test.
 
 ::: {.panel-tabset}
 
