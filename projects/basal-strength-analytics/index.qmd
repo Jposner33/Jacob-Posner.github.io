@@ -42,9 +42,20 @@ The app puts the pipeline behind a simple interface, with tabs for:
 - **Summary** of each test, with and without flagged trials
 - **Repeatability** across trials
 - **Hub comparison** against the vendor's own dashboard values
+- **Force curves**, the raw force signal behind every test (new)
 - **Files** to download the exports
 
 It also has a demo mode that runs on mock data, so it can be shown without exposing any client information. The screenshots below come from that mode.
+
+### New: Force Curves
+
+The summary metrics are just a few numbers taken from a much richer signal: the force on each plate, recorded hundreds of times a second (500 Hz for jumps, 200 Hz for balance). The newest tab pulls that raw signal from the API and plots it, so you can see *how* each trial happened, not just the result.
+
+- **Every trial in context.** Each trial is shaded and numbered on the recording, with flagged trials in red, and the trial's standard metrics sit in a table right below the curve.
+- **Left vs. right.** Each plate gets its own line, which makes asymmetries visible. For single-leg balance, it shows only the leg in use so the sway isn't flattened by a zero line.
+- **Derived jump metrics.** For jumps, the app works out acceleration, velocity, power and displacement from force, trial by trial, using the athlete's same-day body weight.
+- **Verified against the source.** On a real jump test, peak landing force from the curve matched the vendor's total, left and right values on every trial.
+- **Exports.** The plot, the curve as a CSV, or every curve in a pull as a zip.
 
 ::: {.panel-tabset}
 
@@ -55,6 +66,14 @@ It also has a demo mode that runs on mock data, so it can be shown without expos
 ## Checks
 
 ![Every pull runs the same checks. "Stop" means fix before using the data, and "Look" means worth a glance.](app-checks.png){fig-alt="Shiny app Checks tab listing data checks with Pass, Look or Info status, the number of rows affected, and a plain-language explanation of each"}
+
+## Force curves
+
+![The whole recording for a jump test: three trials shaded, left plate, right plate and total force, with each trial's metrics below](app-curves-force.png){fig-alt="Shiny app Force curves tab showing a line chart of force over time for a countermovement jump with three shaded trials, separate lines for left plate, right plate and total, and a table of per-trial metrics underneath"}
+
+## Velocity by trial
+
+![One panel per trial, with velocity worked out from force: the dip, the push-off, flight, and the landing](app-curves-velocity.png){fig-alt="Three side-by-side line charts of velocity over time, one per jump trial, each showing a dip below zero, a peak around 2.3 m/s at takeoff, and a drop on landing"}
 
 ## Repeatability
 

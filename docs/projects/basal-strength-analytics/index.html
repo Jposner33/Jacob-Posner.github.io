@@ -219,11 +219,22 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>Summary</strong> of each test, with and without flagged trials</li>
 <li><strong>Repeatability</strong> across trials</li>
 <li><strong>Hub comparison</strong> against the vendor’s own dashboard values</li>
+<li><strong>Force curves</strong>, the raw force signal behind every test (new)</li>
 <li><strong>Files</strong> to download the exports</li>
 </ul>
 <p>It also has a demo mode that runs on mock data, so it can be shown without exposing any client information. The screenshots below come from that mode.</p>
+<section id="new-force-curves" class="level3">
+<h3 class="anchored" data-anchor-id="new-force-curves">New: Force Curves</h3>
+<p>The summary metrics are just a few numbers taken from a much richer signal: the force on each plate, recorded hundreds of times a second (500 Hz for jumps, 200 Hz for balance). The newest tab pulls that raw signal from the API and plots it, so you can see <em>how</em> each trial happened, not just the result.</p>
+<ul>
+<li><strong>Every trial in context.</strong> Each trial is shaded and numbered on the recording, with flagged trials in red, and the trial’s standard metrics sit in a table right below the curve.</li>
+<li><strong>Left vs.&nbsp;right.</strong> Each plate gets its own line, which makes asymmetries visible. For single-leg balance, it shows only the leg in use so the sway isn’t flattened by a zero line.</li>
+<li><strong>Derived jump metrics.</strong> For jumps, the app works out acceleration, velocity, power and displacement from force, trial by trial, using the athlete’s same-day body weight.</li>
+<li><strong>Verified against the source.</strong> On a real jump test, peak landing force from the curve matched the vendor’s total, left and right values on every trial.</li>
+<li><strong>Exports.</strong> The plot, the curve as a CSV, or every curve in a pull as a zip.</li>
+</ul>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">Overview</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Checks</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">Repeatability</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">Overview</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Checks</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">Force curves</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false" href="">Velocity by trial</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-5" role="tab" aria-controls="tabset-1-5" aria-selected="false" href="">Repeatability</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <div class="quarto-figure quarto-figure-center">
@@ -244,13 +255,30 @@ ul.task-list li input[type="checkbox"] {
 <div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="app-repeatability.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="How consistent the trials are within each test, with flagged trials counted separately"><img src="app-repeatability.png" class="img-fluid figure-img" alt="Shiny app Repeatability tab showing a table of test type, date, time, leg, metric, limb, unit, number of values and number of flagged trials"></a></p>
+<p><a href="app-curves-force.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="The whole recording for a jump test: three trials shaded, left plate, right plate and total force, with each trial’s metrics below"><img src="app-curves-force.png" class="img-fluid figure-img" alt="Shiny app Force curves tab showing a line chart of force over time for a countermovement jump with three shaded trials, separate lines for left plate, right plate and total, and a table of per-trial metrics underneath"></a></p>
+<figcaption>The whole recording for a jump test: three trials shaded, left plate, right plate and total force, with each trial’s metrics below</figcaption>
+</figure>
+</div>
+</div>
+<div id="tabset-1-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-4-tab">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="app-curves-velocity.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="One panel per trial, with velocity worked out from force: the dip, the push-off, flight, and the landing"><img src="app-curves-velocity.png" class="img-fluid figure-img" alt="Three side-by-side line charts of velocity over time, one per jump trial, each showing a dip below zero, a peak around 2.3 m/s at takeoff, and a drop on landing"></a></p>
+<figcaption>One panel per trial, with velocity worked out from force: the dip, the push-off, flight, and the landing</figcaption>
+</figure>
+</div>
+</div>
+<div id="tabset-1-5" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-5-tab">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="app-repeatability.png" class="lightbox" data-gallery="quarto-lightbox-gallery-6" title="How consistent the trials are within each test, with flagged trials counted separately"><img src="app-repeatability.png" class="img-fluid figure-img" alt="Shiny app Repeatability tab showing a table of test type, date, time, leg, metric, limb, unit, number of values and number of flagged trials"></a></p>
 <figcaption>How consistent the trials are within each test, with flagged trials counted separately</figcaption>
 </figure>
 </div>
 </div>
 </div>
 </div>
+</section>
 </section>
 <section id="validating-against-the-source" class="level2">
 <h2 class="anchored" data-anchor-id="validating-against-the-source">Validating Against the Source</h2>
